@@ -3,6 +3,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="35 -1 681 503" width="681pt" height="503pt">
 <metadata> Produced by OmniGraffle 6.6.2 <dc:date>2017-01-29 18:14:08 +0000</dc:date>
 </metadata>
+
+<script>
+<![CDATA[
+function show(evt, node)
+{
+        var svgdoc = evt.target.ownerDocument;
+        var obj = svgdoc.getElementById(node);
+        obj.setAttribute("visibility", "visible");
+}
+
+function hide(evt, node)
+{
+        var svgdoc = evt.target.ownerDocument;
+        var obj = svgdoc.getElementById(node);
+        obj.setAttribute("visibility" , "hidden");
+}
+]]>
+</script>
+
 <defs>
     <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.99585" descent="-212.99744" font-weight="500">
         <font-face-src>
@@ -46,7 +65,7 @@
 </defs>
 <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
     <title>Inside-Mus-Gpu</title>
-    <g>
+    <g onclick="show(evt, 'arrows');">
         <title>Layer 1</title>
         <rect x="281.29167" y="147.63899" width="226.34946" height="170.87937" fill="#9e9db9"/>
         <rect x="281.29167" y="147.63899" width="226.34946" height="170.87937" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -183,7 +202,7 @@
         </g>
         <line x1="482.19947" y1="281.35878" x2="552.68333" y2="281.35878" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
     </g>
-    <g>
+    <g id="arrows" visibility="hidden">
         <title>arrows</title>
         <line x1="395.2172" y1="262.85878" x2="433.5" y2="328.85878" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         <line x1="440.5" y1="262.85878" x2="382.5" y2="328.85878" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
