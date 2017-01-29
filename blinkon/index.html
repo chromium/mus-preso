@@ -126,25 +126,6 @@
 </article>
 
 <article>
-	<h3>Mus Architecture Changes</h3>
-	<ul class="build">
-		<li>Mojo
-			<ul>
-				<li>Better Chrome IPC</li>
-				<li>Factors out process separation</li>
-			</ul>
-		<li>
-		<li>Mandoline: prototype <code>src/content</code> refactoring using Mojo</li>
-	</ul>	
-</article>
-
-<!--
-
-blah	
-
--->
-
-<article>
 	<h3>Chrome Now</h3>
 	<div style="text-align:center" >
 		<!-- don't forget to insert the JS into the svg if you alter the image -->
@@ -154,7 +135,7 @@ blah
 
 <!-- 
 
-Write notes
+Notes go here...
 
 -->
 
@@ -166,16 +147,24 @@ Write notes
 </article>	
 
 <!-- 
-	
+Why do this?
+
+To answer this, we have to look inside the Mus-GPU
 -->
 
 <article>
 	<h3>Inside Mus-GPU</h3>
 	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
 		<object data="system-architecture-inside-mus-gpu.svg" height="600" alt="System Architectures"></object>
 	</div>
 </article>
+
+<!--
+
+prep for direct compositing
+
+-->
+
 
 <article>
 	<h3>Direct Compositing and Vulkan!</h3>
@@ -221,7 +210,20 @@ Write notes
 	<h3>Summary</h3>
 	<ul class="build">
 	<li>Part of the <em>Servicification</em> effort</li>
-	<li>Centralized compositing, rasterization, GPU</li>
+	<li>Polliwog
+		<ul>
+			<li>Centralizes DisplayCompositor</li>
+			<li>Enables direct rendering: Vulkan</li>
+			<li>Improves OOPIF support</li>
+		</ul>
+	</li>
+	<li>GPU Raster: Direct GL or Vulkan</li>
+	<li>Salamander
+		<ul>
+			<li>Centralized LayerCompositor</li>
+			<li>Global raster occlusion</li>
+			<li>Efficient OOPIF support</li>
+		</ul>
 	</ul>
 </article>	
 
