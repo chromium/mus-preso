@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="62 44 191 164" width="191pt" height="164pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-02-20 22:59:34 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>transparent-occluders</title>
+    <rect fill="white" width="674" height="567"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="63" y="45" width="189" height="162" fill="white"/>
+      <rect x="63" y="45" width="189" height="162" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(68 116.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="10.368">A</tspan>
+      </text>
+      <path d="M 83.12504 83.45334 L 161.36503 62.489 L 164.352 136.22853 L 117.408 148.80713 Z" fill="#fffd78"/>
+      <path d="M 83.12504 83.45334 L 161.36503 62.489 L 164.352 136.22853 L 117.408 148.80713 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(110.21329 72.16663) rotate(15)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="21.226" y="15" textLength="20.448">C1</tspan>
+      </text>
+      <path d="M 193.97623 117 L 246.13622 130.97623 L 232.16 183.13622 L 180 169.16 Z" fill="#73feff"/>
+      <path d="M 193.97623 117 L 246.13622 130.97623 L 232.16 183.13622 L 180 169.16 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(186.12372 134.51176) rotate(-15)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="11.776" y="15" textLength="20.448">C2</tspan>
+      </text>
+      <path d="M 100.50403 135 L 198 152.19117 L 190.18583 196.50752 L 92.68986 179.31635 Z" fill="white" fill-opacity=".805658"/>
+      <path d="M 100.50403 135 L 198 152.19117 L 190.18583 196.50752 L 92.68986 179.31635 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <text transform="translate(99.91926 164.39724) rotate(-10)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="34.868" y="15" textLength="19.264">A1</tspan>
+      </text>
+      <path d="M 194.33085 176.0739 L 198 155.26514 L 185.15373 153 L 180 172.23397 Z" fill="#ff7e79"/>
+      <path d="M 194.33085 176.0739 L 198 155.26514 L 185.15373 153 L 180 172.23397 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 144 140.40037 L 113.37296 135 L 119.63114 146.92999 Z" fill="#ff7e79"/>
+      <path d="M 144 140.40037 L 113.37296 135 L 119.63114 146.92999 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

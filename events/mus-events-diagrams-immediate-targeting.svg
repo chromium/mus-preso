@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="43 35 276 263" width="23pc" height="263pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-02-20 23:11:15 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="13" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>immediate-targeting</title>
+    <rect fill="white" width="674" height="567"/>
+    <g>
+      <title>Layer 1</title>
+      <circle cx="207" cy="180" r="18.000029" fill="white"/>
+      <circle cx="207" cy="180" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(197.6 170.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.216" y="15" textLength="10.368">A</tspan>
+      </text>
+      <circle cx="153" cy="108" r="18.000029" fill="white"/>
+      <circle cx="153" cy="108" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(143.6 98.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.624" y="15" textLength="11.552">C</tspan>
+      </text>
+      <rect x="189" y="252" width="45" height="45" fill="white"/>
+      <rect x="189" y="252" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(194 265.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.908" y="15" textLength="25.184">WS</tspan>
+      </text>
+      <rect x="243" y="252" width="45" height="45" fill="white"/>
+      <rect x="243" y="252" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(248 265.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="6.092" y="15" textLength="22.816">DC</tspan>
+      </text>
+      <line x1="196.19864" y1="165.59819" x2="163.80136" y2="122.40181" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 234 253.5678 C 259.61642 228.8467 297.84936 188.8366 297 171 C 296.18425 153.86934 259.56403 162.34613 233.29336 170.67351" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="223.90562" y1="173.80682" x2="225.12554" y2="173.35992" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 189 260.90372 C 162.05108 243.47336 119.13807 211.70067 108 180 C 98.73266 153.62371 113.89967 134.23272 129.07268 122.26221" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <path d="M 82.21339 182.3533 L 149.21339 182.3533 C 151.42253 182.3533 153.21339 184.14417 153.21339 186.3533 L 153.21339 204.3533 C 153.21339 206.56245 151.42253 208.3533 149.21339 208.3533 L 82.21339 208.3533 C 80.00425 208.3533 78.21339 206.56245 78.21339 204.3533 L 78.21339 186.3533 C 78.21339 184.14417 80.00425 182.3533 82.21339 182.3533 Z" fill="#fffdd7"/>
+      <path d="M 82.21339 182.3533 L 149.21339 182.3533 C 151.42253 182.3533 153.21339 184.14417 153.21339 186.3533 L 153.21339 204.3533 C 153.21339 206.56245 151.42253 208.3533 149.21339 208.3533 L 82.21339 208.3533 C 80.00425 208.3533 78.21339 206.56245 78.21339 204.3533 L 78.21339 186.3533 C 78.21339 184.14417 80.00425 182.3533 82.21339 182.3533 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(83.21339 187.67131)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="2.1515" y="12" textLength="64.311">2. handle? </tspan>
+      </text>
+      <path d="M 250.85667 187.93198 L 313.85667 187.93198 C 316.0658 187.93198 317.85667 189.72284 317.85667 191.93198 L 317.85667 209.93198 C 317.85667 212.14112 316.0658 213.93198 313.85667 213.93198 L 250.85667 213.93198 C 248.64753 213.93198 246.85667 212.14112 246.85667 209.93198 L 246.85667 191.93198 C 246.85667 189.72284 248.64753 187.93198 250.85667 187.93198 Z" fill="#fffdd7"/>
+      <path d="M 250.85667 187.93198 L 313.85667 187.93198 C 316.0658 187.93198 317.85667 189.72284 317.85667 191.93198 L 317.85667 209.93198 C 317.85667 212.14112 316.0658 213.93198 313.85667 213.93198 L 250.85667 213.93198 C 248.64753 213.93198 246.85667 212.14112 246.85667 209.93198 L 246.85667 191.93198 C 246.85667 189.72284 248.64753 187.93198 250.85667 187.93198 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(251.85667 193.24998)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x=".1515" y="12" textLength="60.697">1. handle?</tspan>
+      </text>
+      <circle cx="153" cy="54" r="18.000029" fill="white"/>
+      <circle cx="153" cy="54" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(143.6 44.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.768" y="15" textLength="11.264">D</tspan>
+      </text>
+      <line x1="153" y1="89.99999" x2="153" y2="72.00001" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 189 270.762 C 146.8405 262.95966 59.05892 242.6419 46.53609 207 C 34.831547 173.68707 92.75871 138.05022 127.80371 119.98692" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <path d="M 53.084033 223.529 L 102.08403 223.529 C 104.29317 223.529 106.08403 225.31985 106.08403 227.529 L 106.08403 245.529 C 106.08403 247.73813 104.29317 249.529 102.08403 249.529 L 53.084033 249.529 C 50.874894 249.529 49.084033 247.73813 49.084033 245.529 L 49.084033 227.529 C 49.084033 225.31985 50.874894 223.529 53.084033 223.529 Z" fill="#fffdd7"/>
+      <path d="M 53.084033 223.529 L 102.08403 223.529 C 104.29317 223.529 106.08403 225.31985 106.08403 227.529 L 106.08403 245.529 C 106.08403 247.73813 104.29317 249.529 102.08403 249.529 L 53.084033 249.529 C 50.874894 249.529 49.084033 247.73813 49.084033 245.529 L 49.084033 227.529 C 49.084033 225.31985 50.874894 223.529 53.084033 223.529 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(54.084033 228.847)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x=".3795" y="12" textLength="46.241">3. event</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

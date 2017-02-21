@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="19 35 551 209" width="551pt" height="209pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-02-20 19:44:26 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="13" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>DispatchingLikeThis</title>
+    <rect fill="white" width="674" height="567"/>
+    <g>
+      <title>Layer 1</title>
+      <circle cx="452.83226" cy="126" r="18.000029" fill="white"/>
+      <circle cx="452.83226" cy="126" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(443.43226 116.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.216" y="15" textLength="10.368">A</tspan>
+      </text>
+      <circle cx="398.83226" cy="54" r="18.000029" fill="white"/>
+      <circle cx="398.83226" cy="54" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(389.43226 44.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.624" y="15" textLength="11.552">C</tspan>
+      </text>
+      <rect x="434.83226" y="198" width="45" height="45" fill="white"/>
+      <rect x="434.83226" y="198" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(439.83226 211.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.908" y="15" textLength="25.184">WS</tspan>
+      </text>
+      <rect x="488.83226" y="198" width="45" height="45" fill="white"/>
+      <rect x="488.83226" y="198" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(493.83226 211.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="6.092" y="15" textLength="22.816">DC</tspan>
+      </text>
+      <line x1="442.0309" y1="111.59819" x2="409.6336" y2="68.40181" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 479.83226 199.5678 C 505.4487 174.84669 543.6816 134.8366 542.83226 117 C 542.0165 99.86934 505.3963 108.34613 479.1256 116.67351" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="469.7379" y1="119.80682" x2="470.9578" y2="119.35992" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 434.83225 206.90372 C 407.88334 189.47336 364.97033 157.70067 353.83226 126 C 344.5649 99.62371 359.73192 80.23272 374.90494 68.26221" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <path d="M 327.54564 128.35331 L 395.54564 128.35331 C 397.7548 128.35331 399.54564 130.14417 399.54564 132.35331 L 399.54564 150.35331 C 399.54564 152.56245 397.7548 154.35331 395.54564 154.35331 L 327.54564 154.35331 C 325.3365 154.35331 323.54564 152.56245 323.54564 150.35331 L 323.54564 132.35331 C 323.54564 130.14417 325.3365 128.35331 327.54564 128.35331 Z" fill="#fffdd7"/>
+      <path d="M 327.54564 128.35331 L 395.54564 128.35331 C 397.7548 128.35331 399.54564 130.14417 399.54564 132.35331 L 399.54564 150.35331 C 399.54564 152.56245 397.7548 154.35331 395.54564 154.35331 L 327.54564 154.35331 C 325.3365 154.35331 323.54564 152.56245 323.54564 150.35331 L 323.54564 132.35331 C 323.54564 130.14417 325.3365 128.35331 327.54564 128.35331 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(328.54564 133.67131)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x=".0125" y="12" textLength="65.975">Events in C</tspan>
+      </text>
+      <path d="M 493.5646 132.7574 L 564.5646 132.7574 C 566.77376 132.7574 568.5646 134.54826 568.5646 136.7574 L 568.5646 154.7574 C 568.5646 156.96654 566.77376 158.7574 564.5646 158.7574 L 493.5646 158.7574 C 491.3555 158.7574 489.5646 156.96654 489.5646 154.7574 L 489.5646 136.7574 C 489.5646 134.54826 491.3555 132.7574 493.5646 132.7574 Z" fill="#fffdd7"/>
+      <path d="M 493.5646 132.7574 L 564.5646 132.7574 C 566.77376 132.7574 568.5646 134.54826 568.5646 136.7574 L 568.5646 154.7574 C 568.5646 156.96654 566.77376 158.7574 564.5646 158.7574 L 493.5646 158.7574 C 491.3555 158.7574 489.5646 156.96654 489.5646 154.7574 L 489.5646 136.7574 C 489.5646 134.54826 491.3555 132.7574 493.5646 132.7574 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(494.5646 138.0754)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="1.9935" y="12" textLength="68.627">Events in A </tspan>
+      </text>
+      <circle cx="155.84896" cy="126" r="18.000029" fill="white"/>
+      <circle cx="155.84896" cy="126" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(146.44896 116.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.216" y="15" textLength="10.368">A</tspan>
+      </text>
+      <circle cx="101.84896" cy="54" r="18.000029" fill="white"/>
+      <circle cx="101.84896" cy="54" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(92.44896 44.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.624" y="15" textLength="11.552">C</tspan>
+      </text>
+      <rect x="137.84896" y="198" width="45" height="45" fill="white"/>
+      <rect x="137.84896" y="198" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(142.84896 211.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.908" y="15" textLength="25.184">WS</tspan>
+      </text>
+      <rect x="191.84896" y="198" width="45" height="45" fill="white"/>
+      <rect x="191.84896" y="198" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(196.84896 211.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="6.092" y="15" textLength="22.816">DC</tspan>
+      </text>
+      <line x1="145.0476" y1="111.59819" x2="112.65032" y2="68.40181" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 137.84896 214.15227 C 110.17478 205.56803 66.71662 189.22074 65.84896 171 C 65.03478 153.9021 101.96812 140.28924 128.76685 132.68363" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="138.3252" y1="130.12399" x2="137.23495" y2="130.38056" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 138.33579 121.83113 C 115.27428 115.87545 76.40921 104.08032 65.84896 90 C 58.598606 80.33286 66.30637 71.74291 76.422625 65.38044" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <path d="M 35.04577 80.46364 L 103.04577 80.46364 C 105.25491 80.46364 107.04577 82.25451 107.04577 84.46364 L 107.04577 102.46364 C 107.04577 104.67278 105.25491 106.46364 103.04577 106.46364 L 35.04577 106.46364 C 32.836632 106.46364 31.04577 104.67278 31.04577 102.46364 L 31.04577 84.46364 C 31.04577 82.25451 32.836632 80.46364 35.04577 80.46364 Z" fill="#fffdd7"/>
+      <path d="M 35.04577 80.46364 L 103.04577 80.46364 C 105.25491 80.46364 107.04577 82.25451 107.04577 84.46364 L 107.04577 102.46364 C 107.04577 104.67278 105.25491 106.46364 103.04577 106.46364 L 35.04577 106.46364 C 32.836632 106.46364 31.04577 104.67278 31.04577 102.46364 L 31.04577 84.46364 C 31.04577 82.25451 32.836632 80.46364 35.04577 80.46364 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(36.04577 85.78165)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x=".0125" y="12" textLength="65.975">Events in C</tspan>
+      </text>
+      <path d="M 23.69435 164.10377 L 111.69435 164.10377 C 113.90349 164.10377 115.69435 165.89464 115.69435 168.10377 L 115.69435 186.10377 C 115.69435 188.31291 113.90349 190.10377 111.69435 190.10377 L 23.69435 190.10377 C 21.485212 190.10377 19.694351 188.31291 19.694351 186.10377 L 19.694351 168.10377 C 19.694351 165.89464 21.485212 164.10377 23.69435 164.10377 Z" fill="#fffdd7"/>
+      <path d="M 23.69435 164.10377 L 111.69435 164.10377 C 113.90349 164.10377 115.69435 165.89464 115.69435 168.10377 L 115.69435 186.10377 C 115.69435 188.31291 113.90349 190.10377 111.69435 190.10377 L 23.69435 190.10377 C 21.485212 190.10377 19.694351 188.31291 19.694351 186.10377 L 19.694351 168.10377 C 19.694351 165.89464 21.485212 164.10377 23.69435 164.10377 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(24.69435 169.42178)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="2.1865" y="12" textLength="85.241">Events in A, C </tspan>
+      </text>
+    </g>
+    <g>
+      <title>highlight</title>
+      <line x1="180" y1="54" x2="72" y2="216" stroke="#ff2600" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+      <line x1="54" y1="63" x2="189" y2="207" stroke="#ff2600" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+    </g>
+  </g>
+</svg>

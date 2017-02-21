@@ -50,174 +50,117 @@
 	<ul class="build">
 	<li>What is it?</li>
 	<li>Determining which client on the screen gets the event</li>
-	<li>Complicated...</li>
-	<li>Because web platform</li>
+	<li>More complicated...</li>
 	</ul>
 </article>
 
-<!--
-	And more about how mus contributes forthcoming
--->
-
 <article>
-	<h3>Servicified Chrome</h3>
+	<h3>Clarifying Pictures: Window Tree</h3>
 	<div style="text-align:center; padding-top: 50px;" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-1.svg" height="400" alt="System Architectures"></object>
+		<object data="mus-events-diagrams-settingcontext.svg" height="400" alt="Setting Context"></object>
 	</div>
 </article>	
 
-<!--
-	Mus is the red bit. Click on it. It's called UI in the picture.
--->
+<article>
+	<h3>Only Direct Dispatching is Secure</h3>
+	<div style="text-align:center; padding-top: 50px;" >
+		<object data="mus-events-diagrams-dispatchinglikethis.svg" width="700" alt="Secure Event Dispatching"></object>
+	</div>
+	<h4>Remember: WS must dispatch</h4>
+</article>	
 
 <article>
-	<h3>Aside: Mus History</h3>
+	<h3>But CFs Position Surfaces</h3>
+	<div style="text-align:center; padding-top: 50px;" >
+		<object data="mus-events-diagrams-compositorframedelivery.svg" height="400" alt="Setting Context"></object>
+	</div>
+</article>	
+
+<article>
+	<h3>The Fundamental Targeting Challenge</h3>
+
 	<ul class="build">
-		<li>Mojo
-			<ul>
-				<li>Better Chrome IPC</li>
-				<li>Factors out process separation</li>
-			</ul>
-		</li>
-		<li>Mandoline: prototype <code>src/content</code> refactoring using Mojo</li>
-	</ul>	
-</article>
+	<li>Only WS may dispatch</li>
+	<li>Some events are <em>latched</em> and WS already knows the target. e.g.<code>ET_TOUCH_MOVED</code></li>
+	<li>But not all events are latched: e.g. <code>ET_TOUCH_PRESSED</code></li>
+	<li>And only the DC knows where surfaces are on the <code>display::Screen</code></li>
+	<li>But WS and DC are in separate processes</li>
+	<li>So, how does WS determine what surface is at a given <code>display::Screen</code> position?</li>
 
-<!--
-	Why we did this.
--->
-
-
-<article>
-	<h3>Mus Milestones</h3>
-	<ul class="build">
-		<li>Tadpole:
-			<ul>
-				<li> separate Ash</li>
-				<li>Relocate the Display Compositor</li>
-			</ul></li>
-		<li>Salamander:
-			<ul>
-				<li>Relocate rasterization</li>
-				<li>Relocate the Layer Compositor</li>
-			</ul>
-		</li>
-		<li>Because... 
-			<ul>
-				<li>Speed</li>
-				<li>Simplicity</li>
-				<li>Security</li>
-				<li>Stability</li>
-			</ul>
-		</li>
-	</ul>	
-</article>
-
-<article>
-	<h3>Chrome Now</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-chrome-now.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- 
-
-Notes go here...
-
--->
-
-<article>
-	<h3>Tadpole</h3>
-	<div style="text-align:center" >
-		<object data="system-architecture-polliwog.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- 
-Why do this?
-
-To answer this, we have to look inside the Mus-GPU
--->
-
-<article>
-	<h3>Inside Mus-GPU</h3>
-	<div style="text-align:center" >
-		<object data="system-architecture-inside-mus-gpu.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>
-
-<!--
-
-prep for direct compositing
-
--->
-
-
-<article>
-	<h3>Direct Compositing and Vulkan!</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-inside-mus-gpu-next.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>
-
-<article>
-	<h3>After Tadpole</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-polliwog-arrows.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>
-
-<!-- Draw me -->
-<article>
-	<h3>After Tadpole: GPU Raster</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-polliwog-gpu-raster.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- benefits -->
-
-
-
-<article>
-	<h3>Salamander</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-salamander.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- benefits -->
-
-<!-- Draw me -->
-<article>
-	<h3>Summary</h3>
-	<ul class="build">
-	<li>Part of the <em>Servicification</em> effort</li>
-	<li>Tadpole
-		<ul>
-			<li>Centralizes DisplayCompositor</li>
-			<li>Enables direct rendering: Vulkan</li>
-			<li>Improves OOPIF support</li>
-		</ul>
-	</li>
-	<li>GPU Raster: Direct GL or Vulkan</li>
-	<li>Salamander
-		<ul>
-			<li>Centralized LayerCompositor</li>
-			<li>Global raster occlusion</li>
-			<li>Efficient OOPIF support</li>
-			<li>Single graphics scheduling point</li>
-		</ul>
+	<li><h4>Answer:have the WS ask the DC which surface is topmost at a given position.</h4></li>
 	</ul>
-</article>	
+</article>
 
 
+<!--
+	All very well if the surfaces are rectangular
+-->
+
+<article>
+	<h3>Aside: Web Platform Complications</h3>
+
+	<ul class="build">
+	<li>Surface targeting works perfectly for transformed rectangular regions</li>
+	<li>But correct web platform support requires two extensions</li>
+	<li>Transparent occluders
+		<div style="text-align:center; padding-top: 20px;" >
+			<object data="mus-events-diagrams-transparent-occluders.svg" height="200" alt="Setting Context"></object>
+		</div>
+	</li>
+
+	<li>Solution: extend <code>cc::CompositorFrame</code> with list of
+	transparent occluders
+	</li>
+	<li>Conceivably also useful for UI (e.g. large touch regions on small window controls)</li>
+	</ul>
+</article>
+
+<article>
+	<h3>2nd Complication: Non-rectangular regions</h3>
+
+	<ul class="build">
+	<li>
+		<div style="text-align:center; padding-top: 0px;" >
+			<object data="mus-events-diagrams-cloudoccluder.svg" height="150" alt="Setting Context"></object>
+		</div>
+	</li>
+	<li>Solution: detect via non-opaque tiles in <code>cc::CompositorFrame</code></li>
+	<li>And do <em>immediate</em> targeting
+		<div style="text-align:center; padding-top: 0px;" >
+			<object data="mus-events-diagrams-immediate-targeting.svg" height="200" alt="Setting Context"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+<!-- Fix svg like this:  Edit ,x:</tspan>[\n	 ]*<tspan:  x:[\n	 ]*:  d  -->
+<article>
+	<h3>How We Build It</h3>
+	<div style="text-align:center; padding-top: 0px;" >
+		<object data="architecture-components.svg" height="650" alt="Setting Context"></object>
+	</div>
+</article>
+
+<article>
+	<h3>Latched Targeting</h3>
+	<div style="text-align:center; padding-top: 12px;" >
+		<object data="architecture-flow-latched.svg" height="600" alt="Setting Context"></object>
+	</div>
+</article>
+
+<article>
+	<h3>Unlatched Targeting</h3>
+	<div style="text-align:center; padding-top: 12px;" >
+		<object data="architecture-flow-non-latched.svg" height="600" alt="Setting Context"></object>
+	</div>
+</article>
+
+<article>
+	<h3>Immediate Unlatched Targeting</h3>
+	<div style="text-align:center; padding-top: 12px;" >
+		<object data="architecture-flow-challenging.svg" height="600" alt="Setting Context"></object>
+	</div>
+</article>
 
 </section>
 </body>

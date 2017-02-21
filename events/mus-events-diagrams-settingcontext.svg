@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="53 26 488 254" width="488pt" height="254pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-02-20 19:35:45 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="13" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>SettingContext</title>
+    <rect fill="white" width="674" height="567"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="54" y="90" width="207" height="126" fill="white"/>
+      <rect x="54" y="90" width="207" height="126" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(59 143.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="10.368">A</tspan>
+      </text>
+      <rect x="81" y="108" width="108" height="72" fill="white"/>
+      <rect x="81" y="108" width="108" height="72" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(86 113)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="43.224" y="15" textLength="11.552">C</tspan>
+      </text>
+      <rect x="90" y="135" width="36" height="36" fill="white"/>
+      <rect x="90" y="135" width="36" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(95 143.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.754" y="15" textLength="11.264">D</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="15.018" y="15" textLength="7.228">1</tspan>
+      </text>
+      <circle cx="432" cy="189" r="18.000029" fill="white"/>
+      <circle cx="432" cy="189" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(422.6 179.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.216" y="15" textLength="10.368">A</tspan>
+      </text>
+      <circle cx="522" cy="117" r="18.000029" fill="white"/>
+      <circle cx="522" cy="117" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(512.6 107.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x=".01" y="15" textLength="11.552">C</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="11.562" y="15" textLength="7.228">n</tspan>
+      </text>
+      <circle cx="378" cy="117" r="18.000029" fill="white"/>
+      <circle cx="378" cy="117" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(368.6 107.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.624" y="15" textLength="11.552">C</tspan>
+      </text>
+      <rect x="378" y="234" width="45" height="45" fill="white"/>
+      <rect x="378" y="234" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(383 247.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="4.908" y="15" textLength="25.184">WS</tspan>
+      </text>
+      <rect x="432" y="234" width="45" height="45" fill="white"/>
+      <rect x="432" y="234" width="45" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(437 247.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="6.092" y="15" textLength="22.816">DC</tspan>
+      </text>
+      <circle cx="468" cy="117" r="18.000029" fill="white"/>
+      <circle cx="468" cy="117" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(458.6 107.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x=".01" y="15" textLength="11.552">C</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="11.562" y="15" textLength="7.228">1</tspan>
+      </text>
+      <circle cx="378" cy="45" r="18.000029" fill="white"/>
+      <circle cx="378" cy="45" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(368.6 35.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x=".154" y="15" textLength="11.264">D</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="11.418" y="15" textLength="7.228">n</tspan>
+      </text>
+      <circle cx="315" cy="45" r="18.000029" fill="white"/>
+      <circle cx="315" cy="45" r="18.000029" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(305.6 35.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x=".154" y="15" textLength="11.264">D</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="11.418" y="15" textLength="7.228">1</tspan>
+      </text>
+      <line x1="421.19864" y1="174.59819" x2="388.80136" y2="131.40181" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="366.1465" y1="103.45312" x2="326.8535" y2="58.546876" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="378" y1="98.99999" x2="378" y2="63.00001" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="440.05203" y1="172.89595" x2="459.948" y2="133.10405" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="446.05686" y1="177.75452" x2="507.94314" y2="128.24548" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(487 104.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="16">…</tspan>
+      </text>
+      <text transform="translate(338 32.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="16">…</tspan>
+      </text>
+      <rect x="198" y="135" width="54" height="45" fill="white"/>
+      <rect x="198" y="135" width="54" height="45" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(203 140)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="12.61" y="15" textLength="11.552">C</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="24.162" y="15" textLength="7.228">1</tspan>
+      </text>
+      <rect x="135" y="135" width="36" height="36" fill="white"/>
+      <rect x="135" y="135" width="36" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(140 143.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="3.754" y="15" textLength="11.264">D</tspan>
+        <tspan font-family="Helvetica Neue" font-size="13" font-weight="500" x="15.018" y="15" textLength="7.228">n</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
