@@ -5,3 +5,4 @@ code in Chrome.
 
 Slide decks here:
 *  [Blink-on 7](https://cdn.rawgit.com/chromium/mus-preso/a5701889/blinkon/index.html)
+*  [Event Targeting](https://cdn.rawgit.com/chromium/mus-preso/706199ba/events/index.html)
