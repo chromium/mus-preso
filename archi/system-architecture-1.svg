@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="18 96 672 320" width="56pc" height="320pt">
+<metadata> Produced by OmniGraffle 6.6.2 <dc:date>2017-01-27 04:23:50 +0000</dc:date>
+</metadata>
+<script type="text/ecmascript">
+  <![CDATA[
+    function changeRectColor(evt) {
+//      var red = Math.round(Math.random() * 255);
+//      var green = Math.round(Math.random() * 255);
+//      var blue = Math.round(Math.random() * 255);
+//      evt.target.setAttributeNS(null,"fill","rgb("+ red +","+ green+","+blue+")");
+      evt.target.setAttributeNS(null,"fill","red");
+    }
+  ]]>
+  </script>
+<defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.99585" descent="-212.99744" font-weight="500">
+        <font-face-src>
+            <font-face-name name="HelveticaNeue"/>
+        </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.72656" ascent="770.01953" descent="-229.98047" font-weight="bold">
+        <font-face-src>
+            <font-face-name name="Helvetica-Bold"/>
+        </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="522.94922" cap-height="717.28516" ascent="770.01953" descent="-229.98047" font-weight="500">
+        <font-face-src>
+            <font-face-name name="Helvetica"/>
+        </font-face-src>
+    </font-face>
+</defs>
+<g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g>
+        <title>underlay</title>
+        <rect x="29.25" y="107.125" width="649.125" height="67.5" fill="#f3ffe8"/>
+        <rect x="29.25" y="107.125" width="649.125" height="67.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(34.25 131.651)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="49.184">Clients</tspan>
+        </text>
+        <rect x="29.25" y="190.4375" width="649.125" height="213.625" fill="#e6f0ff"/>
+        <rect x="29.25" y="190.4375" width="649.125" height="213.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(34.25 278.802)" fill="black"><tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="80.912">Foundation</tspan><tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="33.447998" textLength="61.024">Services</tspan></text>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <path d="M 170.75 115.875 L 318.625 115.875 C 319.72957 115.875 320.625 116.77043 320.625 117.875 L 320.625 163.875 C 320.625 164.97957 319.72957 165.875 318.625 165.875 L 170.75 165.875 C 169.64543 165.875 168.75 164.97957 168.75 163.875 L 168.75 117.875 C 168.75 116.77043 169.64543 115.875 170.75 115.875 Z" fill="#cf6"/>
+        <path d="M 170.75 115.875 L 318.625 115.875 C 319.72957 115.875 320.625 116.77043 320.625 117.875 L 320.625 163.875 C 320.625 164.97957 319.72957 165.875 318.625 165.875 L 170.75 165.875 C 169.64543 165.875 168.75 164.97957 168.75 163.875 L 168.75 117.875 C 168.75 116.77043 169.64543 115.875 170.75 115.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(173.75 132.375)" fill="black"><tspan font-family="Helvetica" font-size="14" font-weight="bold" x="53.82373" y="14" textLength="34.22754">Blink</tspan></text>
+        <path d="M 339.5 115.875 L 487.375 115.875 C 488.47957 115.875 489.375 116.77043 489.375 117.875 L 489.375 163.875 C 489.375 164.97957 488.47957 165.875 487.375 165.875 L 339.5 165.875 C 338.39543 165.875 337.5 164.97957 337.5 163.875 L 337.5 117.875 C 337.5 116.77043 338.39543 115.875 339.5 115.875 Z" fill="#cf6"/>
+        <path d="M 339.5 115.875 L 487.375 115.875 C 488.47957 115.875 489.375 116.77043 489.375 117.875 L 489.375 163.875 C 489.375 164.97957 488.47957 165.875 487.375 165.875 L 339.5 165.875 C 338.39543 165.875 337.5 164.97957 337.5 163.875 L 337.5 117.875 C 337.5 116.77043 338.39543 115.875 339.5 115.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(342.5 132.375)" fill="black"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="black" x="33.982422" y="14" textLength="73.910156">Browser UI</tspan></text>
+        <path d="M 225.4375 334.875 L 403.4375 334.875 C 404.54207 334.875 405.4375 335.77043 405.4375 336.875 L 405.4375 389.25 C 405.4375 390.35457 404.54207 391.25 403.4375 391.25 L 225.4375 391.25 C 224.33293 391.25 223.4375 390.35457 223.4375 389.25 L 223.4375 336.875 C 223.4375 335.77043 224.33293 334.875 225.4375 334.875 Z" fill="#004080" onclick="changeRectColor(evt)" />
+        <path d="M 225.4375 334.875 L 403.4375 334.875 C 404.54207 334.875 405.4375 335.77043 405.4375 336.875 L 405.4375 389.25 C 405.4375 390.35457 404.54207 391.25 403.4375 391.25 L 225.4375 391.25 C 224.33293 391.25 223.4375 390.35457 223.4375 389.25 L 223.4375 336.875 C 223.4375 335.77043 224.33293 334.875 225.4375 334.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(228.4375 340.5625)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="14">UI</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="137.42578">Embedding, Input routing,</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="42" textLength="100.69922">DisplayCompositor</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="126.49297" y="42" textLength="22.675781">, GL</tspan></text>
+        <path d="M 423.4375 203.25 L 601.4375 203.25 C 602.54207 203.25 603.4375 204.14543 603.4375 205.25 L 603.4375 257.625 C 603.4375 258.72957 602.54207 259.625 601.4375 259.625 L 423.4375 259.625 C 422.33293 259.625 421.4375 258.72957 421.4375 257.625 L 421.4375 205.25 C 421.4375 204.14543 422.33293 203.25 423.4375 203.25 Z" fill="#004080"/>
+        <path d="M 423.4375 203.25 L 601.4375 203.25 C 602.54207 203.25 603.4375 204.14543 603.4375 205.25 L 603.4375 257.625 C 603.4375 258.72957 602.54207 259.625 601.4375 259.625 L 423.4375 259.625 C 422.33293 259.625 421.4375 258.72957 421.4375 257.625 L 421.4375 205.25 C 421.4375 204.14543 422.33293 203.25 423.4375 203.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(426.4375 208.9375)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="59.117188">Sandbox</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="96.708984">Process capability</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="122.27422" y="28" textLength="3.3339844">,</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="42" textLength="73.365234">Rights control</tspan></text>
+        <path d="M 225.4375 203.25 L 403.4375 203.25 C 404.54207 203.25 405.4375 204.14543 405.4375 205.25 L 405.4375 257.625 C 405.4375 258.72957 404.54207 259.625 403.4375 259.625 L 225.4375 259.625 C 224.33293 259.625 223.4375 258.72957 223.4375 257.625 L 223.4375 205.25 C 223.4375 204.14543 224.33293 203.25 225.4375 203.25 Z" fill="#004080"/>
+        <path d="M 225.4375 203.25 L 403.4375 203.25 C 404.54207 203.25 405.4375 204.14543 405.4375 205.25 L 405.4375 257.625 C 405.4375 258.72957 404.54207 259.625 403.4375 259.625 L 225.4375 259.625 C 224.33293 259.625 223.4375 258.72957 223.4375 257.625 L 223.4375 205.25 C 223.4375 204.14543 224.33293 203.25 225.4375 203.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(228.4375 208.9375)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="76.26172">File system</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="81.375">origin-scoped fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="107.825" y="28" textLength="50.021484">le access</tspan></text>
+        <path d="M 423.4375 269.625 L 601.4375 269.625 C 602.54207 269.625 603.4375 270.52043 603.4375 271.625 L 603.4375 317.625 C 603.4375 318.72957 602.54207 319.625 601.4375 319.625 L 423.4375 319.625 C 422.33293 319.625 421.4375 318.72957 421.4375 317.625 L 421.4375 271.625 C 421.4375 270.52043 422.33293 269.625 423.4375 269.625 Z" fill="#004080"/>
+        <path d="M 423.4375 269.625 L 601.4375 269.625 C 602.54207 269.625 603.4375 270.52043 603.4375 271.625 L 603.4375 317.625 C 603.4375 318.72957 602.54207 319.625 601.4375 319.625 L 423.4375 319.625 C 422.33293 319.625 421.4375 318.72957 421.4375 317.625 L 421.4375 271.625 C 421.4375 270.52043 422.33293 269.625 423.4375 269.625 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(426.4375 272.125)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="31.13086">User</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="23.34375">profi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="49.79375" y="28" textLength="112.05469">les, user preferences</tspan></text>
+        <path d="M 225.4375 269.625 L 403.4375 269.625 C 404.54207 269.625 405.4375 270.52043 405.4375 271.625 L 405.4375 317.625 C 405.4375 318.72957 404.54207 319.625 403.4375 319.625 L 225.4375 319.625 C 224.33293 319.625 223.4375 318.72957 223.4375 317.625 L 223.4375 271.625 C 223.4375 270.52043 224.33293 269.625 225.4375 269.625 Z" fill="#004080"/>
+        <path d="M 225.4375 269.625 L 403.4375 269.625 C 404.54207 269.625 405.4375 270.52043 405.4375 271.625 L 405.4375 317.625 C 405.4375 318.72957 404.54207 319.625 403.4375 319.625 L 225.4375 319.625 C 224.33293 319.625 223.4375 318.72957 223.4375 317.625 L 223.4375 271.625 C 223.4375 270.52043 224.33293 269.625 225.4375 269.625 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(228.4375 272.125)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="55.234375">Network</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="24.00586">URL</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="50.016406" y="28" textLength="72.058594"> handling, buf</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="121.86406" y="28" textLength="30.017578">fering</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="42" textLength="32.003906">DNS, </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="58.24297" y="42" textLength="24">TCP</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="80.696094" y="42" textLength="45.36328">, speedy</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="125.17461" y="42" textLength="26.009766">, etc.</tspan></text>
+        <path d="M 423.4375 334.875 L 601.4375 334.875 C 602.54207 334.875 603.4375 335.77043 603.4375 336.875 L 603.4375 389.25 C 603.4375 390.35457 602.54207 391.25 601.4375 391.25 L 423.4375 391.25 C 422.33293 391.25 421.4375 390.35457 421.4375 389.25 L 421.4375 336.875 C 421.4375 335.77043 422.33293 334.875 423.4375 334.875 Z" fill="#004080"/>
+        <path d="M 423.4375 334.875 L 601.4375 334.875 C 602.54207 334.875 603.4375 335.77043 603.4375 336.875 L 603.4375 389.25 C 603.4375 390.35457 602.54207 391.25 601.4375 391.25 L 423.4375 391.25 C 422.33293 391.25 421.4375 390.35457 421.4375 389.25 L 421.4375 336.875 C 421.4375 335.77043 422.33293 334.875 423.4375 334.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(426.4375 347.5625)" fill="white"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="white" x=".5" y="14" textLength="52.930664">Devices</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" fill="white" x="26.45" y="28" textLength="106.728516">bluetooth, USB, etc.</tspan></text>
+        <path d="M 508.25 115.875 L 656.125 115.875 C 657.22957 115.875 658.125 116.77043 658.125 117.875 L 658.125 163.875 C 658.125 164.97957 657.22957 165.875 656.125 165.875 L 508.25 165.875 C 507.14543 165.875 506.25 164.97957 506.25 163.875 L 506.25 117.875 C 506.25 116.77043 507.14543 115.875 508.25 115.875 Z" fill="#cf6"/>
+        <path d="M 508.25 115.875 L 656.125 115.875 C 657.22957 115.875 658.125 116.77043 658.125 117.875 L 658.125 163.875 C 658.125 164.97957 657.22957 165.875 656.125 165.875 L 508.25 165.875 C 507.14543 165.875 506.25 164.97957 506.25 163.875 L 506.25 117.875 C 506.25 116.77043 507.14543 115.875 508.25 115.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(511.25 132.375)" fill="black"><tspan font-family="Helvetica" font-size="14" font-weight="bold" fill="black" x="44.492676" y="14" textLength="52.88965">PDFium</tspan></text>
+    </g>
+</g>
+</svg>
