@@ -259,17 +259,17 @@ Notes go here...
 
 
 <article>
-	<h3>Separation Forces Improvements</h3>
+	<h3>Process Separation Forces Improvements</h3>
 	<ul class="build">
-		<li>CompositorFrame transport
-			<ul>
+		<li>CompositorFrame transport:
+			<ul class="build">
 				<li>Chrome UI submits CFs via call</li>
 				<li>but Mushrome UI submits CFs via IPC</li>
-				<li>Mitigate with improved CF transports</li>
+				<li>Mitigate with improved CF transport</li>
 				<li>Side benefit: improved renderer performance</li>
 			</ul></li>
-		<li>Event targeting using cached information
-			<ul>
+		<li>Event targeting using cached information:
+			<ul class="build">
 				<li><code>DelegatedFrameHost</code> directly interrogates surface data for event targeting</li>
 				<li>but surface data now only in VIZ</li>
 				<li>Mitigate with event targeting data sourced from blink</li>
