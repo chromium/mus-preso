@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-579.875 -334.625 881.875 635.5" width="881.875pt" height="635.5pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.4.1 
+    <dc:date>2017-08-09 20:05:39 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="32" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" result="offset" dx="0" dy="1"/>
+      <feFlood flood-color="black" flood-opacity=".15" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="Courier" font-size="14" units-per-em="1000" underline-position="-178.22266" underline-thickness="57.61719" slope="0" x-height="462.40234" cap-height="594.72656" ascent="753.90625" descent="-246.09375" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Courier"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier" font-size="12" units-per-em="1000" underline-position="-178.22266" underline-thickness="57.61719" slope="0" x-height="462.40234" cap-height="594.72656" ascent="753.90625" descent="-246.09375" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Courier"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Menlo" font-size="14" panose-1="2 11 6 9 3 8 4 2 2 4" units-per-em="1000" underline-position="-63.47656" underline-thickness="43.94531" slope="0" x-height="546.875" cap-height="729.0039" ascent="928.2227" descent="-235.83984" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Menlo-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="14" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#ff2600">
+      <g>
+        <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Courier" font-size="16" units-per-em="1000" underline-position="-178.22266" underline-thickness="57.61719" slope="0" x-height="462.40234" cap-height="594.72656" ascent="753.90625" descent="-246.09375" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Courier"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>swap regions</title>
+    <g>
+      <title>underlay</title>
+      <rect x="-261" y="-334.125" width="562.5" height="156.375" fill="white"/>
+      <rect x="-261" y="-334.125" width="562.5" height="156.375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-256 -329.125)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="32" font-weight="500" x="209.882" y="30" textLength="132.736">VIZ client</tspan>
+      </text>
+      <rect x="-261" y="-144" width="562.5" height="444.375" fill="white"/>
+      <rect x="-261" y="-144" width="562.5" height="444.375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-256 257.979)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="32" font-weight="500" x="197.45" y="30" textLength="157.6">VIZ service</tspan>
+      </text>
+      <rect x="-579.375" y="-144" width="241.875" height="444.375" fill="white"/>
+      <rect x="-579.375" y="-144" width="241.875" height="444.375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-574.375 -139)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="32" font-weight="500" x="54.0175" y="30" textLength="123.84">VIZ Host</tspan>
+      </text>
+    </g>
+    <g>
+      <title>objectlayer</title>
+      <g>
+        <xl:use xl:href="#id23_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id19_Graphic" filter="url(#Shadow)"/>
+      </g>
+      <g id="id23_Graphic">
+        <path d="M 87.125 -203 L -46.625 -203 C -48.83414 -203 -50.625 -204.79086 -50.625 -207 L -50.625 -271.625 C -50.625 -273.83414 -48.83414 -275.625 -46.625 -275.625 L 87.125 -275.625 C 89.33414 -275.625 91.125 -273.83414 91.125 -271.625 L 91.125 -207 C 91.125 -204.79086 89.33414 -203 87.125 -203 Z" fill="#d5fc79"/>
+        <path d="M 87.125 -203 L -46.625 -203 C -48.83414 -203 -50.625 -204.79086 -50.625 -207 L -50.625 -271.625 C -50.625 -273.83414 -48.83414 -275.625 -46.625 -275.625 L 87.125 -275.625 C 89.33414 -275.625 91.125 -273.83414 91.125 -271.625 L 91.125 -207 C 91.125 -204.79086 89.33414 -203 87.125 -203 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-28.45 -264.8125)" fill="black">
+          <tspan font-family="Courier" font-size="14" font-weight="500" x="2.4924805" y="14" textLength="92.41504">Compositor-</tspan>
+          <tspan font-family="Courier" font-size="14" font-weight="500" x="6.693164" y="31" textLength="84.01367">FrameSink-</tspan>
+          <tspan font-family="Courier" font-size="14" font-weight="500" x="36.09795" y="48" textLength="25.204102">Ptr</tspan>
+        </text>
+      </g>
+      <path d="M -229 55.125 L -362.75 55.125 C -364.95914 55.125 -366.75 53.33414 -366.75 51.125 L -366.75 15.75 C -366.75 13.540861 -364.95914 11.75 -362.75 11.75 L -229 11.75 C -226.79086 11.75 -225 13.540861 -225 15.75 L -225 51.125 C -225 53.33414 -226.79086 55.125 -229 55.125 Z" fill="white"/>
+      <path d="M -229 55.125 L -362.75 55.125 C -364.95914 55.125 -366.75 53.33414 -366.75 51.125 L -366.75 15.75 C -366.75 13.540861 -364.95914 11.75 -362.75 11.75 L -229 11.75 C -226.79086 11.75 -225 13.540861 -225 15.75 L -225 51.125 C -225 53.33414 -226.79086 55.125 -229 55.125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-344.575 19.4375)" fill="black">
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="12.69414" y="11" textLength="72.01172">Aggregate-</tspan>
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="1.8923828" y="25" textLength="93.61523">HitTestRegion</tspan>
+      </text>
+      <path d="M -229 98.5 L -362.75 98.5 C -364.95914 98.5 -366.75 96.70914 -366.75 94.5 L -366.75 59.125 C -366.75 56.91586 -364.95914 55.125 -362.75 55.125 L -229 55.125 C -226.79086 55.125 -225 56.91586 -225 59.125 L -225 94.5 C -225 96.70914 -226.79086 98.5 -229 98.5 Z" fill="white"/>
+      <path d="M -229 98.5 L -362.75 98.5 C -364.95914 98.5 -366.75 96.70914 -366.75 94.5 L -366.75 59.125 C -366.75 56.91586 -364.95914 55.125 -362.75 55.125 L -229 55.125 C -226.79086 55.125 -225 56.91586 -225 59.125 L -225 94.5 C -225 96.70914 -226.79086 98.5 -229 98.5 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-344.575 62.8125)" fill="black">
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="12.69414" y="11" textLength="72.01172">Aggregate-</tspan>
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="1.8923828" y="25" textLength="93.61523">HitTestRegion</tspan>
+      </text>
+      <g id="id19_Graphic">
+        <path d="M -384.8125 91.4375 L -532.0625 91.4375 C -534.27164 91.4375 -536.0625 89.64664 -536.0625 87.4375 L -536.0625 22.8125 C -536.0625 20.60336 -534.27164 18.8125 -532.0625 18.8125 L -384.8125 18.8125 C -382.60336 18.8125 -380.8125 20.60336 -380.8125 22.8125 L -380.8125 87.4375 C -380.8125 89.64664 -382.60336 91.4375 -384.8125 91.4375 Z" fill="#ffd579"/>
+        <path d="M -384.8125 91.4375 L -532.0625 91.4375 C -534.27164 91.4375 -536.0625 89.64664 -536.0625 87.4375 L -536.0625 22.8125 C -536.0625 20.60336 -534.27164 18.8125 -532.0625 18.8125 L -384.8125 18.8125 C -382.60336 18.8125 -380.8125 20.60336 -380.8125 22.8125 L -380.8125 87.4375 C -380.8125 89.64664 -382.60336 91.4375 -384.8125 91.4375 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-512.5375 46.625)" fill="black">
+          <tspan font-family="Courier" font-size="14" font-weight="500" x="3.691797" y="14" textLength="100.81641">HitTestQuery</tspan>
+        </text>
+      </g>
+    </g>
+    <g>
+      <title>vizlayer</title>
+      <g>
+        <xl:use xl:href="#id18_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id17_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id12_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id11_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id10_Graphic" filter="url(#Shadow)"/>
+      </g>
+      <g id="id18_Graphic">
+        <path d="M 10.0625 73.125 L -206.9375 73.125 C -209.14664 73.125 -210.9375 71.33414 -210.9375 69.125 L -210.9375 32.125 C -210.9375 29.91586 -209.14664 28.125 -206.9375 28.125 L 10.0625 28.125 C 12.271639 28.125 14.0625 29.91586 14.0625 32.125 L 14.0625 69.125 C 14.0625 71.33414 12.271639 73.125 10.0625 73.125 Z" fill="#005493"/>
+        <path d="M 10.0625 73.125 L -206.9375 73.125 C -209.14664 73.125 -210.9375 71.33414 -210.9375 69.125 L -210.9375 32.125 C -210.9375 29.91586 -209.14664 28.125 -206.9375 28.125 L 10.0625 28.125 C 12.271639 28.125 14.0625 29.91586 14.0625 32.125 L 14.0625 69.125 C 14.0625 71.33414 12.271639 73.125 10.0625 73.125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-180.4375 42.125)" fill="white">
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="10.588379" y="14" textLength="142.82324">HitTestAggregator</tspan>
+          <tspan font-family="Menlo" font-size="14" font-weight="500" fill="white" x="153.41162" y="14" textLength="8.428711"> </tspan>
+        </text>
+      </g>
+      <g id="id17_Graphic">
+        <path d="M 242.375 -70.875 L -134.375 -70.875 C -136.58414 -70.875 -138.375 -72.66586 -138.375 -74.875 L -138.375 -111.875 C -138.375 -114.08414 -136.58414 -115.875 -134.375 -115.875 L 242.375 -115.875 C 244.58414 -115.875 246.375 -114.08414 246.375 -111.875 L 246.375 -74.875 C 246.375 -72.66586 244.58414 -70.875 242.375 -70.875 Z" fill="#005493"/>
+        <path d="M 242.375 -70.875 L -134.375 -70.875 C -136.58414 -70.875 -138.375 -72.66586 -138.375 -74.875 L -138.375 -111.875 C -138.375 -114.08414 -136.58414 -115.875 -134.375 -115.875 L 242.375 -115.875 C 244.58414 -115.875 246.375 -114.08414 246.375 -111.875 L 246.375 -74.875 C 246.375 -72.66586 244.58414 -70.875 242.375 -70.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-91.9 -101.875)" fill="white">
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="78.68906" y="14" textLength="134.42188">FrameSinkManager</tspan>
+        </text>
+      </g>
+      <path d="M 145.625 242.5 L 11.875 242.5 C 9.665861 242.5 7.875 240.70914 7.875 238.5 L 7.875 221.125 C 7.875 218.91586 9.665861 217.125 11.875 217.125 L 145.625 217.125 C 147.83414 217.125 149.625 218.91586 149.625 221.125 L 149.625 238.5 C 149.625 240.70914 147.83414 242.5 145.625 242.5 Z" fill="white"/>
+      <path d="M 145.625 242.5 L 11.875 242.5 C 9.665861 242.5 7.875 240.70914 7.875 238.5 L 7.875 221.125 C 7.875 218.91586 9.665861 217.125 11.875 217.125 L 145.625 217.125 C 147.83414 217.125 149.625 218.91586 149.625 221.125 L 149.625 238.5 C 149.625 240.70914 147.83414 242.5 145.625 242.5 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(30.05 222.8125)" fill="black">
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="1.8923828" y="11" textLength="93.61523">HitTestRegion</tspan>
+      </text>
+      <path d="M 106.25 213.65085 L -27.5 213.65085 C -29.70914 213.65085 -31.5 211.86 -31.5 209.65085 L -31.5 192.27585 C -31.5 190.06672 -29.70914 188.27585 -27.5 188.27585 L 106.25 188.27585 C 108.45914 188.27585 110.25 190.06672 110.25 192.27585 L 110.25 209.65085 C 110.25 211.86 108.45914 213.65085 106.25 213.65085 Z" fill="white"/>
+      <path d="M 106.25 213.65085 L -27.5 213.65085 C -29.70914 213.65085 -31.5 211.86 -31.5 209.65085 L -31.5 192.27585 C -31.5 190.06672 -29.70914 188.27585 -27.5 188.27585 L 106.25 188.27585 C 108.45914 188.27585 110.25 190.06672 110.25 192.27585 L 110.25 209.65085 C 110.25 211.86 108.45914 213.65085 106.25 213.65085 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-9.325 193.96335)" fill="black">
+        <tspan font-family="Courier" font-size="12" font-weight="500" x="1.8923828" y="11" textLength="93.61523">HitTestRegion</tspan>
+      </text>
+      <text transform="translate(112.14569 198.82952) rotate(-39)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="16">…</tspan>
+      </text>
+      <g id="id12_Graphic">
+        <path d="M 120.875 153.625 L -12.875 153.625 C -15.084139 153.625 -16.875 151.83414 -16.875 149.625 L -16.875 96.25 C -16.875 94.04086 -15.084139 92.25 -12.875 92.25 L 120.875 92.25 C 123.08414 92.25 124.875 94.04086 124.875 96.25 L 124.875 149.625 C 124.875 151.83414 123.08414 153.625 120.875 153.625 Z" fill="#005493"/>
+        <path d="M 120.875 153.625 L -12.875 153.625 C -15.084139 153.625 -16.875 151.83414 -16.875 149.625 L -16.875 96.25 C -16.875 94.04086 -15.084139 92.25 -12.875 92.25 L 120.875 92.25 C 123.08414 92.25 124.875 94.04086 124.875 96.25 L 124.875 149.625 C 124.875 151.83414 123.08414 153.625 120.875 153.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(5.3 105.9375)" fill="white">
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="15.094531" y="14" textLength="67.21094">HitTest-</tspan>
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="19.295215" y="31" textLength="58.80957">Manager</tspan>
+        </text>
+      </g>
+      <g id="id11_Graphic">
+        <path d="M 253.77508 -1.8775012 C 289.23047 1.6875 275.09175 31.698956 218.5325 26.578125 C 213.28504 36.56026 147.51422 34.940048 147.9442 26.578125 C 106.70389 37.27313 54.00124 15.947505 89.35132 5.252501 C 46.932975 .06728625 89.8866 -27.86995 124.69922 -23.203125 C 127.48528 -30.98161 189.71978 -33.70365 195.18221 -23.203125 C 230.4226 -34.41718 303.90446 -17.174948 253.77508 -1.8775012 Z" fill="#76d6ff"/>
+        <path d="M 253.77508 -1.8775012 C 289.23047 1.6875 275.09175 31.698956 218.5325 26.578125 C 213.28504 36.56026 147.51422 34.940048 147.9442 26.578125 C 106.70389 37.27313 54.00124 15.947505 89.35132 5.252501 C 46.932975 .06728625 89.8866 -27.86995 124.69922 -23.203125 C 127.48528 -30.98161 189.71978 -33.70365 195.18221 -23.203125 C 230.4226 -34.41718 303.90446 -17.174948 253.77508 -1.8775012 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(92.9375 -14.704498)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="500" fill="white" x="33.34" y="13" textLength="96.712">Rest of display </tspan>
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="500" fill="white" x="44.225" y="29.392" textLength="71.05">compositor</tspan>
+        </text>
+      </g>
+      <g id="id10_Graphic">
+        <path d="M 10.0625 7.875 L -206.9375 7.875 C -209.14664 7.875 -210.9375 6.084139 -210.9375 3.875 L -210.9375 -33.125 C -210.9375 -35.33414 -209.14664 -37.125 -206.9375 -37.125 L 10.0625 -37.125 C 12.271639 -37.125 14.0625 -35.33414 14.0625 -33.125 L 14.0625 3.875 C 14.0625 6.084139 12.271639 7.875 10.0625 7.875 Z" fill="#005493"/>
+        <path d="M 10.0625 7.875 L -206.9375 7.875 C -209.14664 7.875 -210.9375 6.084139 -210.9375 3.875 L -210.9375 -33.125 C -210.9375 -35.33414 -209.14664 -37.125 -206.9375 -37.125 L 10.0625 -37.125 C 12.271639 -37.125 14.0625 -35.33414 14.0625 -33.125 L 14.0625 3.875 C 14.0625 6.084139 12.271639 7.875 10.0625 7.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-180.4375 -31.625)" fill="white">
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="48.39453" y="14" textLength="67.21094">GpuRoot-</tspan>
+          <tspan font-family="Courier" font-size="14" font-weight="500" fill="white" x="2.1870117" y="31" textLength="159.62598">CompositorFrameSink</tspan>
+        </text>
+      </g>
+      <line x1="-98.4375" y1="7.875" x2="-98.4375" y2="18.225" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-26.5 -19.349)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="16">…</tspan>
+      </text>
+      <line x1="10.446429" y1="-70.875" x2="-46.08829" y2="-41.66887" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="82.09172" y1="-70.875" x2="128.0295" y2="-34.081233" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="54" y1="-70.875" x2="54" y2="82.35" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g>
+      <title>Layer 4</title>
+      <path d="M -138.375 46.74865 C -138.375 46.74865 -145.42672 -48.13407 -246 -55.5 C -326.07558 -61.36469 -435.45633 -9.554948 -476.7156 11.807201" marker-end="url(#FilledArrow_Marker_2)" stroke="#ff2600" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M -487.0359 -76.36186 L -112.03591 -76.36186 C -109.27449 -76.36186 -107.03591 -74.12328 -107.03591 -71.36186 L -107.03591 -33.36186 C -107.03591 -30.600435 -109.27449 -28.36186 -112.03591 -28.36186 L -487.0359 -28.36186 C -489.79733 -28.36186 -492.0359 -30.600435 -492.0359 -33.36186 L -492.0359 -71.36186 C -492.0359 -74.12328 -489.79733 -76.36186 -487.0359 -76.36186 Z" fill="#fff5c1"/>
+      <path d="M -487.0359 -76.36186 L -112.03591 -76.36186 C -109.27449 -76.36186 -107.03591 -74.12328 -107.03591 -71.36186 L -107.03591 -33.36186 C -107.03591 -30.600435 -109.27449 -28.36186 -112.03591 -28.36186 L -487.0359 -28.36186 C -489.79733 -28.36186 -492.0359 -30.600435 -492.0359 -33.36186 L -492.0359 -71.36186 C -492.0359 -74.12328 -489.79733 -76.36186 -487.0359 -76.36186 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(-487.0359 -71.36186)" fill="black">
+        <tspan font-family="Courier" font-size="16" font-weight="500" x=".26953125" y="15" textLength="374.46094">SwitchActiveAggregatedHitTestRegionList</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="19.737844" y="34" textLength="60.752">changes</tspan>
+        <tspan font-family="Courier" font-size="16" font-weight="500" x="80.48984" y="34" textLength="124.82031"> HitTestQuery</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="205.31016" y="34" textLength="51.264"> to curr</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="256.28616" y="34" textLength="59.264">ent aggr</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="315.26216" y="34" textLength="40">egate</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

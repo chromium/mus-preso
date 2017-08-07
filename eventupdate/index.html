@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Mus and Compositing</title>
+	<script src="slides.js"></script>
+	<style>
+		.ak h3 {
+			font-size: 48px;
+		}
+		.ak pre {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body class="ak" style="display: none;">
+<section class="slides layout-widescreen template-default">
+
+<article>
+	<h1>Mustash Event Targeting</h1>
+	<p>Mustash Meeting, 2017/08/08</p>
+</article>
+
+
+<article>
+	<h3>Two Phases of Event Delivery</h3>
+
+	<ol class="build">
+	<li>Targeting: figure out which client actually gets the events</li>
+	<li>Dispatching: sending the events to the right client</li>
+	</ul>
+</article>
+
+<article>
+	<h3>Dispatching</h3>
+	
+	<ul class="build">
+	<li>The host (ws or browser) gets the event</li>
+	<li>Sends the event to the client </li>
+	<li>Existing implementation is complete except for the bugs</li>
+	<li><em>Only the WS is permitted to do this</em></li>
+	</ul>
+</article>
+
+<article>
+	<h3>Targeting</h3>
+
+	<ul class="build">
+	<li>What is it?</li>
+	<li>Determining which client on the screen gets the event</li>
+	<li>More complicated...</li>
+	<li>WS makes targeting decisions using <code>AggregatedHitTestRegion</code> information
+	produced by VIZ</li>
+	<li>VIZ produces the <code>AggregatedHitTestRegion</code> from <code>HitTestRegion</code> 
+	objects that accompany each submission of a <code>CompositorFrame</code> object.</li>
+	<li>Sometimes the information contained in a
+		<code>AggregatedHitTestRegion</code> cannot resolve how to target an event. In this 
+		case, the WS requests assistance recursively from its clients.</li>
+	</ul>
+</article>
+
+<!-- 
+	but this is sort of hard to understand... lets have some pictures
+
+	architecture overview diagram
+-->
+
+<article>
+	<h3>Hit Testing Overview</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-overview.svg"  height="580" alt="Setting Context"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Prepping the HitTest data</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-hittest-prep.svg"  height="580" alt="Setting Context"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Clients Prep <code>HitTestRegion</code> Objects</h3>
+	<div style="text-align:center; padding-top: 30px;" >
+		<object data="mus-events-client-region.svg" height="200" alt="Setting Context"></object>
+	</div>
+
+	<ul class="build">
+	<li>Client code implements <code>viz::HitTestDataProvider</code></li>
+	<li>Such as <code>aura::HitTestDataProviderAura</code></li>
+	<li>List of quads: embedded surfaces D1 and Dn, primary region C and any additional such as tabs</li>
+	<li>Fall-back to immediate mode for shapes that cannot be represented with a union of quads</li>
+</article>
+
+<article>
+	<h3>Surface Sync Controls HitTest Aggregation</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-observers.svg"  height="580" alt="Surface Sync Controls HitTest Aggregation"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Aggregator Produces a new Aggregate</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-update-hittest-region.svg"  height="580" alt="Aggregator Produces a new Aggregate"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Swap Active Aggregate</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-swap-regions.svg"  height="580" alt="Swap Active Aggregate"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Viz Host Queries Aggregate</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-host-reads-it.svg"  height="580" alt="Viz Host Queries Aggregate"></object>
+	</div>
+</article>
+
+
+<article>
+	<h3>WS Logic: A Serialized Tree</h3>
+	<ul>
+	<li><code>AggregatedHitTestRegion</code> is a tree</li>
+	<li>But in a pointer-less form that can be shared between processes</li>
+	</ul>
+	
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="mus-events-aggregatedhittestregion.svg" height="300" alt="Setting Context"></object>
+
+	</div>
+
+</article>
+
+<article>
+	<h3>Immediate Mode</h3>
+
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="mus-events-diagrams-cloudoccluder.svg" height="300" alt="Setting Context"></object>
+	</div>
+
+	<ul class="build">
+	<li>Some shapes cannot be targeted with quads</li>
+	<li>The client marks the <code>HitTestRegion</code> with <code>kHitTestAsk</code></li>
+	<li>So <code>HitTestQuery</code>  asks the client for assistance for events in that region: the bounding box of the cloud above</li>
+	</ul>
+</article>
+
+<article>
+	<h3>Requesting Client Assistance</h3>
+	<div style="text-align:center; padding-top: 20px;" >
+		<object data="architecture-immediate-mode.svg" height="580" alt="Requesting Client Assistance"></object>
+	</div>
+
+</article>
+
+<article>
+	<h3>Status...</h3>
+	<ul class="build">
+	<li>What I've described is landed or in review</li>
+	<li>Blink Paint / CC Impl integration is in planning stages</li>
+	<li>Current goal: end to end operation for Aura next week.</li>
+	</ul>
+</article>
+
+</section>
+</body>
+</html>

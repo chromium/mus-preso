@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="17 44 191 164" width="191pt" height="164pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.4.1 
+    <dc:date>2017-08-08 18:01:15 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>cloudoccluder</title>
+    <g>
+      <title>Layer 1</title>
+      <rect x="18" y="45" width="189" height="162" fill="white"/>
+      <rect x="18" y="45" width="189" height="162" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(23 116.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="0" y="15" textLength="10.368">A</tspan>
+      </text>
+      <path d="M 44.18791 74.96434 L 122.4279 54 L 121.7471 114.05122 L 74.80311 126.62983 Z" fill="#fffd78"/>
+      <path d="M 44.18791 74.96434 L 122.4279 54 L 121.7471 114.05122 L 74.80311 126.62983 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(67.71843 63.26698) rotate(15)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="21.226" y="15" textLength="20.448">C1</tspan>
+      </text>
+      <path d="M 154.84 95.57862 L 207 109.55485 L 193.02377 161.71485 L 140.86378 147.73862 Z" fill="#73feff"/>
+      <path d="M 154.84 95.57862 L 207 109.55485 L 193.02377 161.71485 L 140.86378 147.73862 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(146.9875 113.09038) rotate(-15)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="11.776" y="15" textLength="20.448">C2</tspan>
+      </text>
+      <path d="M 69.175404 95.46672 L 167.50542 133.21208 L 140.6635 203.13767 L 42.333485 165.39231 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 67.867805 139.38851 C 52.86666 129.321 71.56022 100.22113 95.71934 115.68464 C 102.18966 106.10269 132.03638 119.51817 128.45543 128.25085 C 151.90612 124.32538 167.7235 156.17396 147.00448 161.148 C 164.57956 174.16196 133.36158 195.94699 119.1041 184.83314 C 114.66643 192.53174 84.70372 184.32033 86.41685 172.28567 C 65.538785 177.82607 38.4335 146.58017 67.867805 139.38851 Z" fill="#ccc"/>
+      <path d="M 67.867805 139.38851 C 52.86666 129.321 71.56022 100.22113 95.71934 115.68464 C 102.18966 106.10269 132.03638 119.51817 128.45543 128.25085 C 151.90612 124.32538 167.7235 156.17396 147.00448 161.148 C 164.57956 174.16196 133.36158 195.94699 119.1041 184.83314 C 114.66643 192.53174 84.70372 184.32033 86.41685 172.28567 C 65.538785 177.82607 38.4335 146.58017 67.867805 139.38851 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 43.625 74.96434 L 121.86499 54 L 121.1842 114.05122 L 74.2402 126.62983 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 154.84 95.6289 L 207 109.60513 L 193.02377 161.76512 L 140.86378 147.7889 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
