@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<title>Viz: Chrome Graphics Futures</title>
+	<title>What is Viz: The Future of Chrome Compositing</title>
 	<script src="slides.js"></script>
 	<style>
 		.ak h3 {
@@ -72,29 +72,32 @@ responsible for rasterization and compositing. So we gave it a new name.
 	<h3>Viz: Two contexualizations</h3>
 
 	<ul class="build">
-	<li>Servification</li>
+	<li>Servicification
 		<ul class="build">
 			<li>The Mojo UI service is a core service in Chrome</li>
 			<li>Viz (for <em>Visuals</em>) is a sub-service responsible for producing visual output: compositing, rasterization, GPU virtualization.</li>
 		</ul>
-	<li>Augmenting the GPU Process</li>
+	</li>
+	<li>Augmenting the GPU Process
 		<ul class="build">
 			<li>In existing Chrome, the GPU process is responsible for virtualizing a hardware GPU.</li>
 			<li>But we are adding additional functionality for compositing and rasterization.</li>
 			<li>So a new name.</li>
 		</ul>
+	</li>
 	</ul>
 </article>
 
 
 <!--
 
-I can show you a pretty picture to help make this clearer.
+I can show you a pretty picture to help make this clear..
+You can see in the array of services that we have a UI 
+and a Viz service: one more component responsible
+for all of the browser's visual output.
 
 -->
 
-
-<!-- need to add an extra chunk of goo to the UI box -->
 <article>
 	<h3>Servicified Chrome Viz Context</h3>
 	<div style="text-align:center" >
@@ -103,349 +106,536 @@ I can show you a pretty picture to help make this clearer.
 </article>	
 
 
-
 <!--
 
-And a similar high-level picture  comparing the GPU process 
-and the 
+But Viz is more than just a tickbox in a list of servificiation 
+components. It's about making Chrome graphics better
+for the web platform.
+
+Viz does this by 
+
+*	improving performance through direct compositing and centralized scheduling
+*	reducing rasterization work by centralizing raster decisions
+*	and supporting site-isolation without performance or memory penalities
 
 -->
-
-
-<!--
-
-	It's part of servifi..on effort.
-
-	The Mojo UI Service. It's a single centralized set of UI services
-	for a tree of windows. So, at it's simplest: it's like a window server:
-
-	Mus provides an aribtrary embedding tree of windows where each client
-	process can own an arbitrary subtree of windows
-
-	It de-multiplexes input across the tree
-
-	and multiplexes output onto the available displays
-
-	With the goal of making OOPIFs first class: to make input and
-	graphics efficient both for the Chrome UI embedding a web
-	contents or the web contents embedding an arbitrary nesting of
-	OOPIFs.
-
-	So, before continuing,  first an aside...
-
--->
-
 
 <article>
-	<h3>Aside: What's Servicification?</h3>
-
+	<h3>GPU process vs Viz</h3>
+	
 	<ul class="build">
-		<li><em>Servicification</em> is “the migration from monolithic legacy applications into service-based components”
-<a href="https://en.wiktionary.org/wiki/servicification">https://en.wiktionary.org/wiki/servicification</a></li>
-
-		<li>In other words: splitting a monolithic Chrome browser up into components.</li>
-		<li><a href="https://www.chromium.org/developers/design-documents/mojo">Mojo</a> is fancy IPC to glue the components together</li>
-
-		<li>Why do this?</li>
-		<li>To further deliver on the Chrome promise:
-			<ul>
-				<li>Speed</li>
-				<li>Simplicity</li>
-				<li>Security</li>
-				<li>Stability</li>
-			</ul>
-		</li>
+	<li>Viz is more than just a servicification tickbox.</li>
+	<li>Viz is also about making Chrome graphics  better for the Web platform:
+		<ul class="build">
+		<li>Better compositing performance</li>
+		<li>Better rasterization performance</li>
+		<li>Toll-free rasterization and compositing for site isolation</li>
+		</ul>
+	</li>
 	</ul>
 </article>
 
 <!--
-	What's 
+
+Oviously you're probably wondering how Viz will actually
+improve performance.
+
+It's worth explaining. Maybe I'll do a better job than I did in the last few talks.
+
+Let's start with the current WebPlatform graphics compositing / raster pipeline.
+It looks like this when GPU-accelerated rasterization.
+
+Going from left to right, we have:
+
+* blink
+* and its paint subsystem. The result of layout and paint is a set of
+paint items grouped into layers.
+* this information is passed over to the CC thread via a *commit*
+operation
+* paint items go to the rasterization subsystem: Skia Ganesh emits
+serialized GL corresponding to the various paint items. The serialized
+GL goes into a command buffer to the GPU process
+* the layer compositor builds a CompositorFrame corresponding to the
+layer structure of the page
+* it ships the CF to the display compositor in the browser process.
+* and the display compositor converts the union of CFs from all
+clients into a serialized GL stream over a command buffer
+* to the GPU process.
+
 -->
 
+
 <article>
-	<h3>Servicified Chrome</h3>
+	<h3>Current WebPlatform Graphics Pipeline</h3>
 	<div style="text-align:center; padding-top: 50px;" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-1.svg" height="400" alt="System Architectures"></object>
+		<object data="current-webplatform-pipeline.svg" width="920" alt="Current webplatform pipeline"></object>
 	</div>
-</article>	
+</article>
 
 <!--
-	Mus is the red bit. Click on it. It's called UI in the picture.
+
+We are currently working on the first Viz milestone called tadpole
+(yes, at least I have a penchant for silly names), 
+
+From the viewpoint of the WebPlatform, Tadpole is a (in essence) a
+refactoring to let us implement direct compositing.
+
+We are merely relocating the display compositor from the browser
+process to the Viz process. (You'll recall that Viz is the GPU process
+augmented with more stuff -- like the DisplayCompositor.)
+
+This box here... moved from the browser (which is no longer in the picture)
+to here ... in Viz.
+
+We are actively working on Tadpole and expect it to come to Chrome
+over the next 2-3 milestones. 
+
+Tadpole is not an end in itself. It's a prepatory refactoring for direct compositing
+
+And you might be wondering what direct compositing is: the intent is to
+eliminate this bolded command buffer here...
+
 -->
 
+<article>
+	<h3>Viz Tadpole</h3>
+	<div style="text-align:center; padding-top: 20px; overflow: hidden; height:240px;" >
+		<object data="tadpole-webplatform-pipeline.svg" width="920" alt="Viz Tadpole pipeline"></object>
+	</div>
+	<ul class="build">
+	<li>Coming to Chrome over the next 2-3 milestones</li>
+	<li>A prepatory refactoring for direct compositing: removing the bolded CommandBuffer
+	<li>Promises to deliver a 10-15%  performance improvement</li>
+	</ul>
+</article>
 
+<!--
+We have several ways to implement our goal of removing the unnecessary
+command buffer.
 
+The current Display Compositor has
+a GL backend that  emits serialized GL over a command buffer (in red) to
+Chrome's virtualized GPU
+
+To eliminate the use of a command buffer in process...
+
+We could modify (possibly extensively) the GLRenderer backend
+to the display compositor to connect to GL directly.
+
+Instead, we plan to switch the compositor to a new Skia/Ganesh backend instead.
+-->
 
 <article>
-	<h3>Aside: Naming</h3>
-
+	<h3>Viz Tadpole with Direct Skia Compositing</h3>
 	<ul class="build">
-	<li>Mus is divided into two cooperating services</li>
-	<li><code>services/ui</code> aka the <em>window server</em> aka <em>mus</em>
-		<ul class="build">
-			<li>Window embedding tree</li>
-			<li>Event targeting</li>
-			<li>Event dispatching</li>
-		</ul>
-	</li>	
-	<li><code>services/viz</code> aka the <em>mus gpu process</em>
-		<ul class="build">
-			<li>Compositing</li>
-			<li>Rasterization</li>
-			<li>Display management</li>
-			<li>Hit testing support</li>
-		</ul>
+	<li>Tadpole DisplayCompositor uses <code><a href="https://cs.chromium.org/chromium/src/cc/output/direct_renderer.h">GLRenderer</a></code>
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="tadpole-webplatform-gl-directrenderer.svg" height="250" alt="Using GLRenderer"></object>
+		</div>
+	</li>
+	<li>Replace with <code><a href="https://cs.chromium.org/chromium/src/components/viz/service/display/skia_renderer.h">SkiaRenderer</a></code> for direct compositing
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="tadpole-webplatform-skia-directrenderer.svg" height="250" alt="Skia Renderer instead"></object>
+		</div>
 	</li>
+	<li>Enable the WIP version <code>--use-skia-renderer</code></li>
+	</ul>
 </article>
 
-<!-- 
-	Next aside: naming
-
-	Mus is divided into two processes. 
-	these are processes. But one of the points of mojo is that 
-	services can be 
--->
-
-
-
-<article>
-	<h3>Centralized Event Dispatching</h3>
-	<div style="text-align:center; padding-top: 50px;" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="architecture-withevents.svg" height="400" alt="Centralized Event Dispatching"></object>
-	</div>
-</article>	
 
 <!--
 
-here... I can use pictures from the input world...
+You may have heard me talkign about this before. On several occasions
+and might be wondering: why isn't Tadpole and whatnot done yet?
 
-mutate the picture to deliver events when I click. To show how events always
-go from UI to each of the clients.
+Well, Tadpole is hard. 
 
-and repeat the picture for graphics...
+Simple for the web platform
 
+As you can see from the picture: 
 
 -->
 
 <article>
-	<h3>Centralized Graphics</h3>
-	<div style="text-align:center; padding-top: 50px;" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="architecture-withcfs.svg" height="400" alt="Centralized Graphics"></object>
-	</div>
-</article>	
-
-<!-- 
-
-here I need a new pic that shows how everybody's contribution to the scene flows
-down
-
-mutate pictures to show how all of the CFs and raster data flow down
-
-and edit the  SVG...  (how hard?) (do that last)
-
--->
-
-
-<article>
-	<h3>First Class OOPIFs</h3>
-	<div style="text-align:center; padding-top: 50px;" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="architecture-firstclassoopifs.svg" height="400" alt="First class OOPIFs"></object>
-	</div>
-</article>	
-<!-- 
-
-I made a claim about first class OOPIF support. Mus has an
-aspirational goal of equality: all clients whether ash, chrome, top
-level renderers or oopif renderers are treated the same. In
-particular:
-
-The ui and viz service must meet (or exceed) the graphics perf bar
-while embedding Chrome into Ash as is achieved by the current
-directly-coupled in-browser implementation of Ash and Chrome.
-
-This is hard. We're not going to get there all at once. Lots of
-refactoring in our future. Which brings us to the Roadmap.
-
--->
-
-
-<article>
-	<h3>Mus Roadmap</h3>
+	<h3>Aside: Why is Tadpole Hard?</h3>
 	<ul class="build">
-		<li>Mushrome:
-			<ul>
-				<li>Separate VIZ processes</li>
-				<li>Mojo gpu service, compositor interface</li>
-				<li>Relocate the Display Compositor</li>
-			</ul></li>
-		<li>Tadpole/Mus+Ash:
-			<ul>
-				<li>separate WS</li>
-				<li>separate Ash</li>
-			</ul></li>
-		<li>Salamander:
-			<ul>
-				<li>Rasterization centralized in VIZ</li>
-				<li>Centralized Layer Compositor in VIZ</li>
-				<li>Central graphics scheduling</li>
-			</ul>
-		</li>
-	</ul>	
-</article>
-
-<!--
-So how do we get there... Explain steps
--->
-
-
-<article>
-	<h3>Chrome Now</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-chrome.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- 
-
-Notes go here...
-
--->
-<article>
-	<h3>Mushrome</h3>
-	<div style="text-align:center" >
-		<object data="system-architecture-mushrome.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- more slides... -->
-<article>
-	<h3>Viz Alone</h3>
-	&nbsp;
-	<div style="text-align:center" >
-		<object data="system-architecture-viz-alone.svg" height="500" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<article>
-	<h3>Process Separation Forces Improvements</h3>
-	<ul class="build">
-		<li>CompositorFrame transport:
-			<ul class="build">
-				<li>Chrome UI submits CFs via call</li>
-				<li>but Mushrome UI submits CFs via IPC</li>
-				<li>Mitigate with improved CF transport</li>
-				<li>Side benefit: improved renderer performance</li>
-			</ul></li>
-		<li>Event targeting using cached information:
-			<ul class="build">
-				<li><code>DelegatedFrameHost</code> directly interrogates surface data for event targeting</li>
-				<li>but surface data now only in VIZ</li>
-				<li>Mitigate with event targeting data sourced from blink</li>
-				<li>Side benefit: corrects for layer squashing targeting errors</li>
-			</ul></li>
-	</ul>	
-</article>
-<!-- 
-
-In this section.. drive the idea of changes make things better.
-
--->
-
-
-
-<article>
-	<h3>Tadpole</h3>
-	<div style="text-align:center" >
-		<object data="system-architecture-tadpole.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- 
-Why take rasterization out?
-
-To answer this, we have to look inside VIZ
--->
-
-<article>
-	<h3>Inside VIZ</h3>
-	<div style="text-align:center" >
-		<object data="system-architecture-inside-viz-1.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>
-
-<!--
-
-prep for direct compositing
-
--->
-
-
-<article>
-	<h3>Direct Compositing and Vulkan!</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-inside-viz-2.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>
-<!--
-
-Direct connection to the GPU will permit optimizations and performance
-improvements up to perhaps 20% by improving our ability to overlap
-the creation of (Vulkan) command buffers with the dispatching of them
-
-
--->
-
-
-
-<article>
-	<h3>After Tadpole: Central Compositor</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-tadpole-gpu-raster.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- benefits -->
-
-<article>
-	<h3>Salamander</h3>
-	<div style="text-align:center" >
-		<!-- don't forget to insert the JS into the svg if you alter the image -->
-		<object data="system-architecture-salamander.svg" height="600" alt="System Architectures"></object>
-	</div>
-</article>	
-
-<!-- benefits -->
-
-<article>
-	<h3>Summary</h3>
-	<ul class="build">
-	<li>Part of the <em>Servicification</em> effort</li>
-	<li>Tadpole
-		<ul>
-			<li>Centralizes DisplayCompositor</li>
-			<li>Enables direct rendering: Vulkan</li>
-			<li>Improves OOPIF support</li>
-		</ul>
+	<li>Tadpole is conceptually simple for the web platform</li>
+	<li>The before and after picture for renderer processes is unchanged:
+		<div style="text-align:center; overflow: hidden; height: 240px;" >
+			<object data="tadpole-not-hard-webplatform.svg" height="300" alt="Limited Webplatform changes"></object>
+		</div>
 	</li>
-	<li>GPU Raster: Direct GL or Vulkan</li>
-	<li>Salamander
-		<ul>
-			<li>Centralized LayerCompositor</li>
-			<li>Global raster occlusion</li>
-			<li>Efficient OOPIF support</li>
-			<li>Single graphics scheduling point</li>
-		</ul>
+	<li>Only have to alter the setup of CompositorFrame transport</li>
+	<li>But Tadpole also requires many browser-side changes</li>
+	</ul>
+</article>
+
+<!--
+
+I know this is BlinkOn but bear with me while I talk about how the Chrome UI 
+does graphics. Unlike the Web platform, the 
+Chrome UI graphics pipe has to change a lot.
+
+* Before Viz, the windowing and ui toolkits aura and views have a synchronous functional
+call interface to the entire compositor.
+
+* But after relocating the display compositor, we have inserted the new highlighted
+asynchronous IPC interface. 
+
+
+-->
+
+<article>
+	<h3>UI Graphics Pipeline Changes</h3>
+	<ul class="build">
+	<li>Synchronous function call before
+		<div style="text-align:center; overflow: hidden; height: 220px;" >
+			<object data="current-ui-pipeline.svg" height="260" alt="Limited Webplatform changes"></object>
+		</div>
+	</li>
+	<li>Asynchronous IPC after:
+		<div style="text-align:center; overflow: hidden; height: 220px;" >
+			<object data="tadpole-ui-pipeline.svg" height="260" alt="Limited Webplatform changes"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+
+<!--
+Handling the consequences of Introducing this asynchrony is why Tadpole
+is a large project.
+
+You can see the bug for all the details. Or even better, find some some bugs
+that you might like to help with.
+
+A quick status update on where we are:
+
+-->
+<article>
+	<h3>Tadpole Status (<a href="http://crbug/601863">crbug/601863</a>)</h3>
+	<ul class="build">
+	<li>Surface References to improve tracking of objects <em>on in 63</em> </li>
+	<li>Improved CompositorFrame eviction <em>on in 64</em> </li>
+	<li>Surface Synchronization so UI can atomically update sizes of web platform children <em>on in 64</em></li>
+	<li>Cross-process Tab readback <em>on in 64</em></li>
+	<li>Revised event targeting <em>on in 64</em></li>
+	<li>Improved occlusion culling <em>on in 64</em></li>
+	<li>SkiaRenderer <em>performant in 67</em></li>
+	</ul>
+</article>
+
+<!--
+
+OOP Rasterization
+
+Another parallel effort for Viz leading towards Salamander Viz is OOP
+Rasterization.
+
+Centralizing the display compositor promises to reduce command buffer overhead. But
+so does delegating all rasterization to the Viz process.
+
+This is the point of OOP rasterization: delegating raster to Viz via out of process
+serialized paint operations.
+
+-->
+<article>
+	<h3>Parallel Effort: OOP Rasterization</h3>
+	<ul class="build">
+	<li>Centralizing the display compositor permits reducing command buffer overhead</li>
+	<li>So does delegating serialized paint ops to Viz for <strong>O</strong>ut <strong>O</strong>f <strong>P</strong>rocess rasterization</li>
+	<li>Partial implementation behind flag: <code>--enable-gpu-rasterization <br>--enable-oop-rasterization</code></li>
+	</ul>
+</article>
+
+
+<!-- 
+
+* Currently, each web platform client generates paint ops and then
+uses Skia/Ganesh to convert these into a serialized GL stream that it
+sends these to the GPU process via a command buffer.
+
+* With OOP rasterization, we instead serialize the paint ops in the
+renderer and ship them (re-using the underlying CommandBuffer) to Viz
+for rasterization.
+
+This substitution will improve performance because this lower
+highlighted bar of serialized paint ops is smaller and cheaper to
+serialize / deserialize than this upper highlighted bar of serialized
+GL commands.
+
+-->
+<article>
+	<h3>OOP  Rasterization</h3>
+	<ul class="build">
+	<li>Now: each web platform client generates GL
+		<div style="text-align:center; overflow: hidden; height: 240px;" >
+			<object data="current-webplatform-pipeline-highlighted.svg" height="300" alt="Limited Webplatform changes"></object>
+		</div>
+	</li>
+	<li>Next: OOP rasterization serializes paint ops and rasterizes in Viz
+		<div style="text-align:center; overflow: hidden; height: 240px;" >
+			<object data="current-webplatform-oops.svg" height="300" alt="Limited Webplatform changes"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+
+<!--
+
+
+We can combine Tadpole, OOP raster and the SkiaRenderer
+compositor.
+
+This is a significant milestone because it is the prerequisite for the
+use of Vulcan. 
+
+Going left to right...
+
+* here we have the same CC paint / commit appratus as before
+* paint ops are handled as I already discussed for OOP raster: serialized
+in the renderer and shipped to Viz for rasterization
+* the CC impl thread prepares CompositorFrame instances and sends them to Viz
+* As with Tadpole, the display compositor is in Viz and handles the provided CompositorFrame
+* The display compositor uses the direct compositing SkiaRenderer backend that I talked
+about previously
+* The Skia rasterizer handling the paintops has been modified. Here, Skia creates Chrome closures wrapping GL draw calls corresponding to the paint ops.
+* These are PostTask-ed to the SkiaRenderer so that can choose how rasterization and compositing drawops are scheduled to the GPU
+
+Note in particular: we have no GL CommandBuffer use.
+-->
+<article>
+	<h3>Combined Tadpole and OOP Rasterization</h3>
+	<div style="text-align:center; padding-top: 50px; overflow: hidden; height: 300px;" >
+		<object data="tadpole-oops-combined.svg" height="370" alt="Tadpole and OOPS Combined"></object>
+	</div>
+	<ul>
+	<li>Note absence of GL command buffers</li>
+	<li>Improves both raster and compositing performance</li>
+	</ul>
+</article>
+
+
+<!--
+
+
+As has perhaps become obvious now, eliminating the GL command buffer from both webpage rasterization
+and compositing has an ulterior motive beyond eliminating its serialization
+overhead.
+
+It is not possible to implement a command buffer for the Vulkan API without
+losing many of the benefits of the Vulkan API.
+
+There is however (conveniently) a Skia Ganesh Vulkan backend that 
+we could use for both rasterization and the SkiaRenderer. I added it to the
+diagram here. It should be obvious why I talked earlier about the 
+SkiaRenderer.
+
+And: why do we care to use Vulkan? 
+
+We expect an additional 10-15% performance improvement from the combination
+of command buffer removal and the use of Vulkan.
+
+-->
+
+<article>
+	<h3>Enabling Vulkan</h3>
+	<ul class="build">
+	<li>Vulkan API is not ammenable to implementing a command buffer</li>
+	<li>Skia has a Vulkan backend
+		<div style="text-align:center; overflow: hidden; height: 280px;" >
+			<object data="tadpole-oops-combined-vulkan.svg" height="320" alt="First class OOPIFs"></object>
+		</div>
+	</li>
+	<li>Vulkan promises 10-15% better performance beyond the GL implementation for both SkiaRenderer and paint op rasterization</li>
+	</ul>
+</article>
+
+
+<!-- 
+
+If you care about WebGL, you're probably wonder what would happen
+to it without a command buffer. Have no fear, it's still here because
+WebGL requires it.
+
+We have two ways to connect the GPU service 
+
+-->
+<article>
+	<h3>Aside: WebGL Requires CommandBuffer</h3>
+	<ul class="build">
+	<li>A platform-specific API could permit texture sharing with Native GL
+		<div style="text-align:center; overflow: hidden; height: 240px;" >
+			<object data="tadpole-oops-combined-vulkan-webgl-texturesharing.svg" height="280" alt="First class OOPIFs"></object>
+		</div>
+	</li>
+	<li>Angle for Vulkan (aka Vangle) would permit direct interop
+		<div style="text-align:center; overflow: hidden; height: 240px;" >
+			<object data="tadpole-oops-combined-vulkan-webgl-vangle.svg" height="280" alt="First class OOPIFs"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+
+<!--
+
+At the beginning of the talk, I said that Viz is also intended
+to remove the  rasterization and compositing overhead 
+needed to support for site-isolation.
+
+Site isolation is desirable because it improves 
+security by placing each origin domain in a different
+renderer process.
+
+But currently, general use of site isolation imposes a graphics
+performance toll.
+
+A single top-level page using site isolation might look like the
+schematic. ...explain picture...
+
+The embedded iframe in light red allocates GPU memory and rasterizes
+the entire red region. (Though afaik, there is wip to clip it to the
+bounds of the embedding page.)
+
+But the dark red region is unecessarily allocated and rasterized.
+
+-->
+<article>
+	<h3>Explaining the Site Isolation Graphics Toll</h3>
+	<ul class="build">
+	<li>Site isolation improves security</li>
+	<li>With site-isolation,  a single top-level page like this:
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object 
+				data="oopif-tool-page.svg" height="280" alt="OOPIF containing page"></object>
+		</div>
+	</li>
+	<li>Unnecessarily allocates GPU memory and rasterizes the red region:
+		<div style="text-align:center; padding-top: -80px;" >
+			<object data="oopif-toll-double-raster.svg" height="280" alt="OOPIF containing page"></object>
+		</div>
+
+	</li>
 	</ul>
 </article>	
 
 
+<!-- 
+
+This problem exists because aggregation is misplaced. Currently, we
+aggregate after we layerize.
+
+...speak to the picture...
+
+Because we layerize in the renderers and then aggregate in the Display
+Compositor in Viz
+
+With the result that we send paint ops (and hence rasterize)
+everything that might be needed to composite.
+
+And only then do we aggregate the contributions from the all of the
+different renderers contributing to the page.
+
+But by then, it's too late: we've already over-allocated GPU memory
+and done unnecessary raster work.
+
+-->
+<article>
+	<h3>Now: Aggregation <em>After</em> Rasterization </h3>
+	<div style="text-align:center; padding-top: 20px; overflow: hidden; height: 320px;" >
+		<object data="tadpole-oops-combined-two-renderers.svg" height="380" alt="Tadpole and OOPS Combined"></object>
+	</div>
+	<ul class="build">
+	<li>Makes rasterization decisions locally in the renderers</li>
+	<li>So rasterize everything that <em>might</em> be needed</li>
+	<li>Display Compositor aggregates the contributed layers</li>
+	<li>Result: redundant rasterization</li>
+	</ul>
+
+</article>	
+
+
+<!--
+
+That brings us to Salamander. The cute amphibian name for what comes
+after Tadpole and the last step of Viz development that has seen
+
+ Salamander is about re-ordering aggregation with
+rasterization.
+
+Expand explanation.
+
+-->
+<article>
+	<h3>Salamander: Aggregation Before Raster</h3>
+	<div style="text-align:center; padding-top: 20px; overflow: hidden; height: 340px;" >
+		<object data="salamander.svg" height="400" alt="Salamander: aggregation preceeds raster"></object>
+	</div>
+	<ul class="build">
+	<li>Start with same paint ops</li>
+	<li>Add layerization data from property trees</li>
+	<li>Aggregate centrally</li>
+	<li>Rasterize and composite the smallest necessary set of paint ops</li>
+	</ul>
+
+</article>	
+
+
+<!--
+Salmander development is probably still quite a ways out. Let me wrap
+up by summarizing where we are now.
+
+* The first part of Viz project is Tadpole were we relocate the DisplayCompositor
+to Viz. On by 66 we hope.
+
+* OOP rasterization is happening in parallel but still requires a great deal of effort. Ideally not long after Tadpole. Say Q2 of 2018.
+
+* The SkiaRenderer compositor backend 
+
+With these three items complete, then we can start the next  additional in-parallel 
+efforts. Ideally in Q3 of 2018:
+
+* Use of Vulkan graphics
+* Salamander's re-ordering of layerization and paint item selection
+-->
+<article>
+	<h3>Summary: Viz Status</h3>
+	<ul class="build">
+	<li>Underway now
+		<ul class="build">
+		<li>Tadpole: relocate the DisplayCompositor to Viz <em>in 66</em></li>
+		<li>OOP Rasterization in Viz <em>Q2 2018</em></li>
+		<li>SkiaRenderer <em>in 67</em></li>
+		</ul>
+	</li>
+	<li>After the above <em>starting Q3 2018</em>
+		<ul class="build">
+		<li>Vulkan graphics</li>
+		<li>Salamander: central layerization</li> 
+		</ul>
+	</li>
+</article>
+
+<article>
+	<h3> Viz Take-aways</h3>
+	<ul class="build">
+	<li>Two ways to think about Viz:
+		<ul class="build">
+		<li>Servicification of graphics in Chrome</li>
+		<li>A better GPU process</li>
+		</ul>
+	</li>
+	<li>Viz improves webplatform graphics three ways:
+		<ul class="build">
+		<li>10-15% performance benefit from removing command buffers</li>
+		<li>Vulkan support for another 10-15% performance benefit</li>
+		<li>Central aggregation for toll-free site-isolation support</li>
+		</ul>
+	</li>
+	</ul>
+</article>	
 
 </section>
 </body>

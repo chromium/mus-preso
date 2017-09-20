@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 511.25 255.375" width="511.25pt" height="255.375pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.4.2 
+    <dc:date>2017-09-19 21:46:05 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledBall_Marker" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="black">
+      <g>
+        <circle cx="2.9999986" cy="0" r="2.9999973" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>oopif-toll-page</title>
+    <rect fill="white" width="511.25" height="255.375"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="169.875" y="12.375" width="155.25" height="129.375" fill="#cde5fa"/>
+      <rect x="169.875" y="12.375" width="155.25" height="129.375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect x="205.875" y="46.125" width="83.25" height="95.625" fill="#ffc0c0"/>
+      <rect x="205.875" y="46.125" width="83.25" height="95.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="225" y="32.625" width="100.125" height="64.125" fill="#b1c6db"/>
+      <rect x="225" y="32.625" width="100.125" height="64.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect x="205.875" y="141.75" width="83.25" height="37.125" fill="#ffc0c0"/>
+      <path d="M 205.875 141.75 L 289.125 141.75 L 289.125 178.875 L 205.875 178.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <rect x="200.25" y="164.25" width="93.375" height="19.125" fill="white"/>
+      <rect x="169.3125" y="12.375" width="155.25" height="129.375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g>
+      <title>decorations</title>
+      <path d="M 54.625 12.375 L 153.5 12.375 C 155.70914 12.375 157.5 14.165861 157.5 16.375 L 157.5 33.375 C 157.5 35.58414 155.70914 37.375 153.5 37.375 L 54.625 37.375 C 52.41586 37.375 50.625 35.58414 50.625 33.375 L 50.625 16.375 C 50.625 14.165861 52.41586 12.375 54.625 12.375 Z" fill="#fffdd7"/>
+      <path d="M 54.625 12.375 L 153.5 12.375 C 155.70914 12.375 157.5 14.165861 157.5 16.375 L 157.5 33.375 C 157.5 35.58414 155.70914 37.375 153.5 37.375 L 54.625 37.375 C 52.41586 37.375 50.625 35.58414 50.625 33.375 L 50.625 16.375 C 50.625 14.165861 52.41586 12.375 54.625 12.375 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(55.625 17.707)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="2.5315" y="11" textLength="91.812">Embedding page</tspan>
+      </text>
+      <line x1="157.5" y1="28.13889" x2="193.7621" y2="30.353727" marker-end="url(#FilledBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 349.375 23.1875 L 434.75 23.1875 C 436.95914 23.1875 438.75 24.97836 438.75 27.1875 L 438.75 73.1875 C 438.75 75.39664 436.95914 77.1875 434.75 77.1875 L 349.375 77.1875 C 347.16586 77.1875 345.375 75.39664 345.375 73.1875 L 345.375 27.1875 C 345.375 24.97836 347.16586 23.1875 349.375 23.1875 Z" fill="#fffdd7"/>
+      <path d="M 349.375 23.1875 L 434.75 23.1875 C 436.95914 23.1875 438.75 24.97836 438.75 27.1875 L 438.75 73.1875 C 438.75 75.39664 436.95914 77.1875 434.75 77.1875 L 349.375 77.1875 C 347.16586 77.1875 345.375 75.39664 345.375 73.1875 L 345.375 27.1875 C 345.375 24.97836 347.16586 23.1875 349.375 23.1875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(350.375 28.683502)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="4.0195" y="11" textLength="78.672">Fixed position </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="14.0095" y="25.336" textLength="58.692">element in </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="14.2315" y="39.671997" textLength="54.912">embedder</tspan>
+      </text>
+      <line x1="345.375" y1="56.722175" x2="287.31225" y2="64.849" marker-end="url(#FilledBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 54.625 52.1875 L 153.5 52.1875 C 155.70914 52.1875 157.5 53.97836 157.5 56.1875 L 157.5 73.1875 C 157.5 75.39664 155.70914 77.1875 153.5 77.1875 L 54.625 77.1875 C 52.41586 77.1875 50.625 75.39664 50.625 73.1875 L 50.625 56.1875 C 50.625 53.97836 52.41586 52.1875 54.625 52.1875 Z" fill="#fffdd7"/>
+      <path d="M 54.625 52.1875 L 153.5 52.1875 C 155.70914 52.1875 157.5 53.97836 157.5 56.1875 L 157.5 73.1875 C 157.5 75.39664 155.70914 77.1875 153.5 77.1875 L 54.625 77.1875 C 52.41586 77.1875 50.625 75.39664 50.625 73.1875 L 50.625 56.1875 C 50.625 53.97836 52.41586 52.1875 54.625 52.1875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(55.625 57.5195)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="15.3175" y="11" textLength="66.24">OOPIF page</tspan>
+      </text>
+      <line x1="132.24669" y1="77.1875" x2="235.7652" y2="123.0991" marker-end="url(#FilledBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
