@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Separable Objectives</title>
+	<script src="slides.js"></script>
+	<style>
+		.ak h3 {
+			font-size: 48px;
+		}
+		.ak pre {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body class="ak" style="display: none;">
+<section class="slides layout-widescreen template-default">
+
+<article>
+	<h1>Separable Objectives</h1>
+	<p>Team meeting, 2017/10/30</p>
+</article>
+
+
+<article>
+	<h3>Observe</h3>
+
+	<ul class="build">
+	<li><code>--viz</code> (e.g. the relocated compositor) doesn't need mus</li>
+	<li><code>--mus</code> currently doesn't require a relocated compositor</li>
+	<li>But... can't enable this because the GPU service is in mus</li>
+	<li>Small incremental work pushing GPU service out of mus makes these configurations <em>independent</em></li>
+	<li>For more team parallelism</li>
+	<li>To an <em>unchanged</em> endgoal</li>
+	</ul>
+</article>
+
+
+<article>
+	<h3>Chrome vs Current Mus</h3>
+	<ul class="build">
+	<li>Chrome
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-chromenow.svg" height="250" alt="Using GLRenderer"></object>
+		</div>
+	</li>
+	<li>Mus
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-musnow.svg" height="250" alt="Skia Renderer instead"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+<article>
+	<h3>Current Mus vs Launchable Mus</h3>
+	<ul class="build">
+	<li>Current Mus
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-musnow.svg" height="250" alt="Using GLRenderer"></object>
+		</div>
+	</li>
+	<li>Launchable Mus
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-launchable-mus.svg" height="250" alt="Skia Renderer instead"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+<article>
+	<h3>Chrome vs Viz</h3>
+	<ul class="build">
+	<li>Chrome
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-chromenow.svg" height="250" alt="Using GLRenderer"></object>
+		</div>
+	</li>
+	<li>Only Viz
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-split-viz.svg" height="250" alt="Skia Renderer instead"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+<article>
+	<h3>Launchable Mus vs Mus+Viz</h3>
+	<ul class="build">
+	<li>Launchable Mus
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-launchable-mus.svg" height="250" alt="Using GLRenderer"></object>
+		</div>
+	</li>
+	<li>Viz+Mus
+		<div style="text-align:center; overflow: hidden; height: 200px;" >
+			<object data="system-architecture-mus-viz.svg" height="250" alt="Skia Renderer instead"></object>
+		</div>
+	</li>
+	</ul>
+</article>
+
+
+</section>
+</body>
+</html>
