@@ -83,7 +83,11 @@ seen it before but if you've been too busy coding during past presentations...
 
 <!--
 
-We want it all.
+Cue Queen's "We Want it All". 
+We want it all. 
+
+But that means replacing that fuzzy red cloud of new stuff with code. 
+
 
 -->
 
@@ -96,10 +100,12 @@ We want it all.
 
 <!-- 
 
+I hope that you know this.
+
 -->
 
 <article>
-	<h3>But: Why Do We Want This</h3>
+	<h3>Aside: Why Do We Want This</h3>
 
 	<ul class="build">
 	<li>Performance!</li>
@@ -117,65 +123,196 @@ We want it all.
 
 <!--
 
-Oviously you're probably wondering how Viz will actually
-improve performance.
+First,  I need to talk about Viz interfaces.
 
-It's worth explaining. Maybe I'll do a better job than I did in the last few talks.
+I've drawn something like this before. 
 
-Let's start with the current WebPlatform graphics compositing / raster pipeline.
-It looks like this when GPU-accelerated rasterization.
+This is probably mostly a reminder for you.
 
-Going from left to right, we have:
+But I've added something new: the RasterInterface whose implementation is about
+how we connect up OOP-R and OOP-D.
 
-* blink
-* and its paint subsystem. The result of layout and paint is a set of
-paint items grouped into layers.
-* this information is passed over to the CC thread via a *commit*
-operation
-* paint items go to the rasterization subsystem: Skia Ganesh emits
-serialized GL corresponding to the various paint items. The serialized
-GL goes into a command buffer to the GPU process
-* the layer compositor builds a CompositorFrame corresponding to the
-layer structure of the page
-* it ships the CF to the display compositor in the browser process.
-* and the display compositor converts the union of CFs from all
-clients into a serialized GL stream over a command buffer
-* to the GPU process.
+Also: NB red, green and blue boxes 'cause we're in graphics.
+
+And I'm going to label the consumers of these interfaces when I talk about UI
+
+-->
+
+<article>
+	<h3>Viz Interfaces</h3>
+	<div style="text-align:center" >
+		<object data="viz-context-setting.svg" height="480" alt="Servification Context"></object>
+	</div>
+</article>	
+
+
+<!--
+
+speak to slide
 
 -->
 
 
 <article>
-	<h3>Current WebPlatform Graphics Pipeline</h3>
-	<div style="text-align:center; padding-top: 50px;" >
-		<object data="current-webplatform-pipeline.svg" width="920" alt="Current webplatform pipeline"></object>
+	<h3>Aside About UI and Mus</h3>
+
+	<ul class="build">
+	<li>We have arranged to run <code>--mus</code> like this:
+	<div style="text-align:center" >
+		<object data="launchable-mus.svg" height="260" alt="Servification Context"></object>
 	</div>
+	</li>
+	<li>Maybe a lost toy but combining <code>--mus</code> and <code>--enable-viz</code>
+	<div style="text-align:center" >
+		<object data="launchable-mus-with-viz.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	</ul>
+</article>	
+
+
+
+<!--
+
+In a previous slide I introduced the raster interface...
+
+We need to change the UI to use the raster interface.
+
+speak to the picture...
+
+
+-->
+
+
+<article>
+	<h3>UI Changes For RasterInterface</h3>
+
+	<ul class="build">
+	<li>Change Aura UI like this (Eventually):
+	<div style="text-align:center" >
+		<object data="launchable-aura-with-viz-rasterinterface.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Change Mus UI like this:
+	<div style="text-align:center" >
+		<object data="launchable-mus-with-viz-rasterinterface.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	</ul>
+</article>	
+
+
+
+<!--
+
+blther...
+-->
+
+<article>
+	<h3>Why Change Aura UI to RasterInterface</h3>
+	<ul class="build">
+	<li>UI raster thread uses GLES2Interface <em>only</em> to upload software-rasterized UI elements</li>
+	<li>RasterInterface will eventually do this directly to Vulkan</li>
+	<li>Instead of passing through GL to Vulkan texture transport</li>
+	<li>In Salamander: switch UI to generating paint item lists</li>
+	</ul>
+</article>
+
+
+<!-- 
+
+On to work items.
+
+-->
+
+<article>
+	<h3>Work Items</h3>
+	<ul class="build">
+	<li>I've broken the work items into three groups</li>
+	<li>First, Next and Next-Next</li>
+	<li>Mea culpa:  I didn't finish setting up the nice webtech Gantt chart thinger...</li>
+	</ul>
+</article>
+
+
+<!--
+
+blther...
+-->
+
+<article>
+	<h3>First: Metrics</h3>
+	<ul class="build">
+	<li>Tadpole-Vulkan is about performance</li>
+	<li>We <em>must</em> have better metrics:
+		<ul class="build">
+			<li>Existing web platform telemetry <b>m64</b></li>
+			<li>Aura UI for Windows: resize and tab dragging <b>m65</b></li>
+			<li>Android Chrome UI <b>m65</b></li>
+			<li>Aura UI on CrOS <b>m66</b></li>
+		</ul>
+	</li>
+	</ul>
 </article>
 
 <!--
 
-We are currently working on the first Viz milestone called tadpole
-(yes, at least I have a penchant for silly names), 
+blther...
+-->
 
-From the viewpoint of the WebPlatform, Tadpole is a (in essence) a
-refactoring to let us implement direct compositing.
+<article>
+	<h3>First: Vulkan GPU Bots</h3>
+	<ul class="build">
+	<li>Android GPU pixel bots with Vulkan drivers <b>m65</b></li>
+	<li>Windows GPU pixel bots with Vulkan drivers <b>m65</b></li>
+	<li>Linux and CrOS Vulkan bots after.</li>
+	</ul>
+</article>
 
-We are merely relocating the display compositor from the browser
-process to the Viz process. (You'll recall that Viz is the GPU process
-augmented with more stuff -- like the DisplayCompositor.)
+<!--
 
-This box here... moved from the browser (which is no longer in the picture)
-to here ... in Viz.
-
-We are actively working on Tadpole and expect it to come to Chrome
-over the next 2-3 milestones. 
-
-Tadpole is not an end in itself. It's a prepatory refactoring for direct compositing
-
-And you might be wondering what direct compositing is: the intent is to
-eliminate this bolded command buffer here...
+Our work items
 
 -->
+
+
+<article>
+	<h3>First: Sluggish Tadpole: M65</h3>
+	<ul>
+	<li>The bare minimum to combine OOP-R and OOP-D</li>
+	</ul>
+	<div style="text-align:center" >
+		<object data="viz-inside-sluggish-tadpole.svg" height="480" alt="Servification Context"></object>
+	</div>
+</article>	
+
+
+<article>
+	<h3>First: Remaining Tasks</h3>
+	<ul class="build">
+	<li>Surface Sync <b>m65</b></li>
+	<li>Skia Bulkupload <b>m66?</b></li>
+	</ul>
+</article>	
+
+
+
+<article>
+	<h3>Next: Tasks</h3>
+	<ul class="build">
+	<li>OOP-R remaining issues <b>m68</b></li>
+	<li>Prototype Vulkan rendering pipe on android<b>m66</b> (Front-loaded for Android launch schedule.)</li>
+	<li>Android UI
+		<ul class="build">
+			<li>Existing web platform telemetry <b>m64</b></li>
+			<li>Aura UI for Windows: resize and tab dragging <b>m65</b></li>
+			<li>Android Chrome UI <b>m65</b></li>
+			<li>Aura UI on CrOS <b>m66</b></li>
+		</ul>
+	
+	</ul>
+</article>	
+
 
 <article>
 	<h3>Viz Tadpole</h3>
