@@ -37,8 +37,8 @@ revised roadmap.
 	<h3>About this talk</h3>
 
 	<ul class="build">
-	<li>There was a CPS</li>
-	<li>Goal for 2018</li>
+	<li>There was a CPS for Chrome graphics</li>
+	<li>We have a goal for 2018</li>
 	<li>Chrome Vulkan</li>
 	<li>On
 		<ul class="build">
@@ -54,48 +54,66 @@ revised roadmap.
 
 <!--
 
-Let me remind you of the context.
+Let's start by reviewing where we actually are.
 
-2 ways. with and without mus
+If you went to BlinkOn, this should be familiar to you all.  You've hopefully
+seen it before but if you've been too busy coding during past presentations...
+
+
 
 -->
 
 <article>
-	<h3>Viz Context</h3>
+	<h3>You Are Here</h3>
+
+	<ul class="build">
+	<li>We have a relocated display compositor (OOP-D)
 	<div style="text-align:center" >
-		<object data="system-architecture-servification.svg" height="600" alt="Servification Context"></object>
+		<object data="display-compositor-now.svg" height="260" alt="Servification Context"></object>
 	</div>
+	</li>
+	<li>We have OOP-R
+	<div style="text-align:center" >
+		<object data="oopr-now.svg	" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	</ul>
 </article>	
 
 
 <!--
 
-But Viz is more than just a tickbox in a list of servificiation 
-components. It's about making Chrome graphics better
-for the web platform.
-
-Viz does this by 
-
-*	improving performance through direct compositing and centralized scheduling
-*	reducing rasterization work by centralizing raster decisions
-*	and supporting site-isolation without performance or memory penalities
+We want it all.
 
 -->
 
 <article>
-	<h3>GPU process vs Viz</h3>
-	
+	<h3>We Want This: OOP-D & OOP-R</h3>
+	<div style="text-align:center" >
+		<object data="tadpole-oopr-combined.svg" height="320" alt="Servification Context"></object>
+	</div>
+</article>	
+
+<!-- 
+
+-->
+
+<article>
+	<h3>But: Why Do We Want This</h3>
+
 	<ul class="build">
-	<li>Viz is more than just a servicification tickbox.</li>
-	<li>Viz is also about making Chrome graphics  better for the Web platform:
+	<li>Performance!</li>
+	<li>~15% reduced command buffer overhead
 		<ul class="build">
-		<li>Better compositing performance</li>
-		<li>Better rasterization performance</li>
-		<li>Toll-free rasterization and compositing for site isolation</li>
+			<li>paintops vs GL from renderer</li>
+			<li>CompositorFrames vs GL from display compositor</li>
 		</ul>
 	</li>
+	<li>~15% from use of Vulkan (maybe more!)</li>
 	</ul>
 </article>
+
+
 
 <!--
 
