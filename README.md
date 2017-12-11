@@ -4,11 +4,14 @@ server extracted from the existing graphics, compositing and input management
 code in Chrome. 
 
 Slide decks here:
+
 *  [Blink-on 7](https://cdn.rawgit.com/chromium/mus-preso/a5701889/blinkon/index.html)
 *  [BlinkOn 8](https://goo.gl/3RLBav) Viz: Chrome Graphics Futures
 *  [Event Targeting](https://cdn.rawgit.com/chromium/mus-preso/706199ba/events/index.html)
 *  [Architecture Update](https://goo.gl/Kd0jy8)
 *  [Event Targeting Update](https://goo.gl/YKM4tF) All the latest (August 8, 2017) on the status of the event targeting rework for viz.
+*  [Seprable Objectives](https://goo.gl/rpiWbW) Overview of decouping viz and mus launch schedules.
+*  [Viz: Roadmap 2018](https://goo.gl/yLE6cM) Roadmap for Viz team work in 2018.
 
 # Production Notes
 Some people asked me how I made these slides. I did this:
