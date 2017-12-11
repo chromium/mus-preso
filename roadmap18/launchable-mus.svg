@@ -37,15 +37,12 @@
       <rect x="32.875" y="22.5" width="614.25" height="155.25" fill="#ebebeb"/>
       <rect x="32.875" y="22.5" width="614.25" height="155.25" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       <text transform="translate(37.875 153.78589)" fill="black">
-        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="0" y="16" textLength="17.488">Br</tspan>
-        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="17.2" y="16" textLength="68.144">owser Pr</tspan>
-        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="85.056" y="16" textLength="45.328">ocess</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="0" y="16" textLength="17.488">Br</tspan><tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="17.2" y="16" textLength="68.144">owser Pr</tspan><tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="85.056" y="16" textLength="45.328">ocess</tspan>
       </text>
       <rect x="684.125" y="22.5" width="127.6875" height="121.5" fill="#ebebeb"/>
       <rect x="684.125" y="22.5" width="127.6875" height="121.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       <text transform="translate(689.125 120.03589)" fill="black">
-        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="0" y="16" textLength="56.016">GPU Pr</tspan>
-        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="55.728" y="16" textLength="45.328">ocess</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="0" y="16" textLength="56.016">GPU Pr</tspan><tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="55.728" y="16" textLength="45.328">ocess</tspan>
       </text>
     </g>
     <g>
@@ -68,16 +65,14 @@
         <path d="M 294 32.625 L 386 32.625 C 388.20914 32.625 390 34.41586 390 36.625 L 390 82.125 C 390 84.33414 388.20914 86.125 386 86.125 L 294 86.125 C 291.79086 86.125 290 84.33414 290 82.125 L 290 36.625 C 290 34.41586 291.79086 32.625 294 32.625 Z" fill="#d5fc79"/>
         <path d="M 294 32.625 L 386 32.625 C 388.20914 32.625 390 34.41586 390 36.625 L 390 82.125 C 390 84.33414 388.20914 86.125 386 86.125 L 294 86.125 C 291.79086 86.125 290 84.33414 290 82.125 L 290 36.625 C 290 34.41586 291.79086 32.625 294 32.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(308 45.039)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="17.222" y="11" textLength="32.892">Layer </tspan>
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x=".44" y="25.336" textLength="63.12">Compositor</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="17.222" y="11" textLength="32.892">Layer </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x=".44" y="25.336" textLength="63.12">Compositor</tspan>
         </text>
       </g>
       <g filter="url(#Shadow)">
         <path d="M 494 140.625 L 621.5 140.625 C 623.70914 140.625 625.5 142.41586 625.5 144.625 L 625.5 162.5 C 625.5 164.70914 623.70914 166.5 621.5 166.5 L 494 166.5 C 491.79086 166.5 490 164.70914 490 162.5 L 490 144.625 C 490 142.41586 491.79086 140.625 494 140.625 Z" fill="#437fd3"/>
         <path d="M 494 140.625 L 621.5 140.625 C 623.70914 140.625 625.5 142.41586 625.5 144.625 L 625.5 162.5 C 625.5 164.70914 623.70914 166.5 621.5 166.5 L 494 166.5 C 491.79086 166.5 490 164.70914 490 162.5 L 490 144.625 C 490 142.41586 491.79086 140.625 494 140.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(511.55 146.3945)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x=".42" y="11" textLength="34.668">GpuPr</tspan>
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="34.872" y="11" textLength="57.108">ocessHost</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x=".42" y="11" textLength="34.668">GpuPr</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="34.872" y="11" textLength="57.108">ocessHost</tspan>
         </text>
       </g>
       <g filter="url(#Shadow)">
@@ -91,8 +86,7 @@
         <path d="M 51 60.25 L 143 60.25 C 145.20914 60.25 147 62.04086 147 64.25 L 147 82.125 C 147 84.33414 145.20914 86.125 143 86.125 L 51 86.125 C 48.79086 86.125 47 84.33414 47 82.125 L 47 64.25 C 47 62.04086 48.79086 60.25 51 60.25 Z" fill="#ffb66c"/>
         <path d="M 51 60.25 L 143 60.25 C 145.20914 60.25 147 62.04086 147 64.25 L 147 82.125 C 147 84.33414 145.20914 86.125 143 86.125 L 51 86.125 C 48.79086 86.125 47 84.33414 47 82.125 L 47 64.25 C 47 62.04086 48.79086 60.25 51 60.25 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(65 66.0195)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="3.104" y="11" textLength="19.332">Chr</tspan>
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="22.22" y="11" textLength="38.676">ome UI</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="3.104" y="11" textLength="19.332">Chr</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="22.22" y="11" textLength="38.676">ome UI</tspan>
         </text>
       </g>
       <g filter="url(#Shadow)">
@@ -115,16 +109,14 @@
         <path d="M 394 32.625 L 486 32.625 C 488.20914 32.625 490 34.41586 490 36.625 L 490 82.125 C 490 84.33414 488.20914 86.125 486 86.125 L 394 86.125 C 391.79086 86.125 390 84.33414 390 82.125 L 390 36.625 C 390 34.41586 391.79086 32.625 394 32.625 Z" fill="#d5fc79"/>
         <path d="M 394 32.625 L 486 32.625 C 488.20914 32.625 490 34.41586 490 36.625 L 490 82.125 C 490 84.33414 488.20914 86.125 486 86.125 L 394 86.125 C 391.79086 86.125 390 84.33414 390 82.125 L 390 36.625 C 390 34.41586 391.79086 32.625 394 32.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(408 45.039)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="12.332" y="11" textLength="42.672">Display </tspan>
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x=".44" y="25.336" textLength="63.12">Compositor</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="12.332" y="11" textLength="42.672">Display </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x=".44" y="25.336" textLength="63.12">Compositor</tspan>
         </text>
       </g>
       <g filter="url(#Shadow)">
         <path d="M 335.875 96.75 L 486 96.75 C 488.20914 96.75 490 98.54086 490 100.75 L 490 118.625 C 490 120.83414 488.20914 122.625 486 122.625 L 335.875 122.625 C 333.66586 122.625 331.875 120.83414 331.875 118.625 L 331.875 100.75 C 331.875 98.54086 333.66586 96.75 335.875 96.75 Z" fill="#d5fc79"/>
         <path d="M 335.875 96.75 L 486 96.75 C 488.20914 96.75 490 98.54086 490 100.75 L 490 118.625 C 490 120.83414 488.20914 122.625 486 122.625 L 335.875 122.625 C 333.66586 122.625 331.875 120.83414 331.875 118.625 L 331.875 100.75 C 331.875 98.54086 333.66586 96.75 335.875 96.75 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(355.6875 102.5195)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="19.022" y="11" textLength="52.668">Raster thr</tspan>
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="71.474" y="11" textLength="20.004">ead</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="19.022" y="11" textLength="52.668">Raster thr</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="71.474" y="11" textLength="20.004">ead</tspan>
         </text>
       </g>
       <g filter="url(#Shadow)">
