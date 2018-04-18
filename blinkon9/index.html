@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Viz Update</title>
+	<script src="slides.js"></script>
+	<style>
+		.ak h3 {
+			font-size: 48px;
+		}
+		.ak pre {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body class="ak" style="display: none;">
+<section class="slides layout-widescreen template-default">
+
+<article>
+	<h1>Chrome Graphics: Viz Update</h1>
+	<p>Sunnyvale, 2018/04/18</p>
+</article>
+
+<!--
+
+At previous BlinkOns, I talked about Mus and Compositing and Viz and all of
+that. It's probaby boring by now. Or I can give a better talk and it won't seem
+boring. In this talk, I'll give you a progress update and some commentary
+on what remains to be done.
+
+-->
+
+<article>
+	<h3>About this talk</h3>
+
+	<ul class="build">
+	<li>Viz: what is it anyway?</li>
+	<li>Major components</li>
+	<li>Where are we </li>
+	<li>Next Steps</li>
+	</ul>
+</article>
+
+<!--
+	What's  Viz anyway.
+
+	Each of these clients are renderers. 
+-->
+
+<article>
+	<h3>Viz: What Is It</h3>
+
+	<ul class="build">
+	<li>The new name for the GPU process</li>
+	<li>
+	<div style="text-align:center; overflow: hidden; height: 350px; padding-top: -100px; " >
+		<object data="viz-context.svg" height="400" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>For the site-isolated web</li>
+	<li>For  over 20% better performance</li>
+	</ul>
+
+</article>
+
+<!--
+
+We can go deeper. Viz has three major sub-systems.
+
+-->
+
+<article>
+	<h3>Viz API Surface</h3>
+
+	<div style="text-align:center; overflow: hidden; height: 400px; padding-top: -100px; " >
+		<object data="viz-context-api.svg" height="450" alt="Servification Context"></object>
+	</div>
+</article>
+
+
+<!--
+
+	And just to make this clear compared to the GPU process:
+
+-->
+
+<article>
+	<h3>Why Rename?</h3>
+
+	<ul class="build">
+	<li>GPU Process
+	<div style="text-align:center overflow: hidden; height: 200px; " >
+		<object data="viz-components-gpu.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Viz Process adds OOP-D and OOP-R
+	<div style="text-align:center overflow: hidden; height: 200px; padding-top: -100px; " >
+		<object data="viz-components-viz.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	</ul>
+</article>	
+
+
+<!-- 
+
+You might be wondering where this functionality came  from...
+We moved it from the browser
+
+Several things to note here. Not to give too miuch away but.
+comparing these pictures shows both why we want to do this
+
+-->
+
+<article>
+	<h3>OOP-D:  From Browser to Viz</h3>
+
+	<ul class="build">
+	<li>GPU: DisplayCompositor uses CommandBuffer
+	<div style="text-align:center;  overflow: hidden; height: 180px; " >
+		<object data="viz-from-browser-no-oopd.svg" height="240" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Viz: DisplayCompositor doesn't need a CommandBuffer
+	<div style="text-align:center; overflow: hidden; height: 180px;" >
+		<object data="viz-from-browser-oopd.svg"  height="240" alt="Servification Context"></object>
+	</div>
+	<li>For Vulkan compositing</li>
+	<li>But introduces challenging asynchrony...</li>
+	</ul>
+</article>	
+
+
+<!--
+
+Particularly for site isolation
+
+-->
+<article>
+	<h3>Site Isolation</h3>
+
+	<ul class="build">
+	<li>Historically: one client / web contents</li>
+	<li>But exploits like SPECTRE make cross-origin iframes scary</li>
+
+	<li>Require synchronized draw of CompositorFrame from many renderers.
+	<div style="text-align:center; overflow: hidden; height: 220px; padding-top: -100px; " >
+		<object data="oopif-compositing.svg	" height="240" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>And events routed back to each renderer</li>
+	<li>Mitigate asynchrony:
+		<ul class="build">
+		<li>Surface Synchronization</li>
+		<li>New Event Targeting</li>
+		</ul>
+	</li>
+	</ul>
+</article>
+
+
+<!--
+
+all about surface sync.
+
+TODO(rjk): Shrink the images
+
+-->
+<article>
+	<h3>Surface Synchronization</h3>
+
+	<ul class="build">
+	<li>UI can asynchronusly request atomic update of itself and web platform children</li>
+	<li>On in <span style="text-decoration: line-through;">m64</span> <strong>m67</strong> on desktop.  Targeting m68 for Android</li>
+	<li>Required for OOP-D. But also reduces UI variance!</li>
+		<ul class="build">
+		<li>Foreground Tab First Loaded<br>
+		<img src="foregroundtabfirstloaded.png" height="120" style="text-align:center;">
+		</li>
+
+		<li>Navigation to First Contentfull Paint<br>
+		<img src="navigationtofirstcontentpaint.png" height="120">
+		</li>
+	</li>
+	</ul>
+</article>	
+
+
+
+<!--
+
+all about event targeting
+
+-->
+
+<article>
+	<h3>New Event Targeting</h3>
+
+	<ul class="build">
+
+	<li>
+	<div style="text-align:center; overflow: hidden; height: 230px; padding-top: -100px; " >
+		<object data="oopd-event-targeting.svg" height="240" alt="Servification Context"></object>
+	</div>
+	</li>
+
+	<li>Viz version 1 in Finch trial (<code>#enable-viz-hit-test-draw-quad</code>) in <span style="text-decoration: line-through;">m64</span> <strong>m67</strong> </li>
+
+	<!-- can re-use the picture -->
+	<li>Staggered rollout for correctness and performance
+	<div style="text-align:center; overflow: scroll; height: 230px;" >
+		<object data="event-dispatching-progress.svg" height="200" alt="Servification Context"></object>
+	</div>
+	</li>
+
+</article>	
+
+
+<!-- 
+
+A further mitation for site isolation and relocating the d
+-->
+
+<article>
+	<h3>Enhanced Draw Occlusion</h3>
+	<ul class="build">
+	<li>OOP-D can increase overdraw on CrOS and for site isolated frames</li>
+	<li>Mitigate with enhanced draw conclusion</li>
+	<li>Reduces power consumption and improves frame times. E.g.:
+			<img src="occlusion-example.png" height=240 >
+	</li>
+	<li>In trial now <code>#enable-draw-occlusion</code></li>
+	<li>On in <span style="text-decoration: line-through;">m64</span> <strong>m67</strong></li>
+	</ul>
+
+</article>	
+
+
+<!--
+
+think through the transition...
+
+--> 
+
+<article>
+	<h3>OOP-R From Renderer</h3>
+
+	<ul class="build">
+	<li>Renderer with GPU Process
+	<div style="text-align:center; overflow: hidden; height: 180px;" >
+		<object data="viz-from-browser-no-oopr.svg" height="220" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Rasterization in Viz
+	<div style="text-align:center; overflow: hidden; height: 180px;" >
+		<object data="viz-from-browser-oopr.svg" height="220" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Enable <code>--enable-gpu-rasterization --enable-oop-rasterization</code></li>
+	<li>Trial in <strong>m69</strong></li>
+	</ul>
+</article>
+
+
+
+<!--
+
+Time to draw aside the curtain and look inside...
+
+Say what: Need to transition? Previous picture.
+
+You might remember that I talked about removing the command buffer...
+
+-->
+
+<article>
+	<h3>OOP-D: No CommandBuffer</h3>
+
+	<ul class="build">
+	<li>Current OOP-D implementation uses an in-memory CommandBuffer
+	<div style="text-align:center; overflow: hidden; height: 180px;" >
+		<object data="oopd-command-buffer.svg" height="220" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Use SkiaRenderer with SkDeferredDisplayList instead to support Vulkan
+	<div style="text-align:center; overflow: hidden; height: 180px;" >
+		<object data="oopd-skddl-instead.svg" height="220" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Prototyping now with first Vulkan pixels. Trial in <strong>m69</strong></li>
+	</ul>
+</article>
+
+<!-- 
+
+blither...
+
+
+-->
+
+<article>
+	<h3>OOP-R: No CommandBuffer</h3>
+
+	<ul class="build">
+	<li>First OOP-R  implementation ships paint opts over a CommandBuffer
+	<div style="text-align:center; overflow: hidden; height: 200px;" >
+		<object data="oopr-command-buffer.svg" height="240" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Future OOP-R uses SkDeferredDisplayList instead for parallelism and Vulkan
+	<div style="text-align:center; overflow: hidden; height: 200px;" >
+		<object data="oopr-with-skddl.svg" height="240" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Status: designing / prototyping</li>
+	</ul>
+</article>	
+
+
+
+<!-- 
+
+event targeting... 
+
+-->
+
+
+
+
+<article>
+	<h3>Summary</h3>
+
+	<ul class="build">
+	<li>Viz: expanded GPU process</li>
+	<li>Performance improvement from
+		<ul class="build">
+		<li>Draw occlusion culling</li>
+		<li>Removing command buffers</li>
+		<li>Using Vulkan</li>
+		</ul>
+	</li>
+	<li>We've made progress. First benefits now reaching stable</li>
+	<li>More to come</li>
+	</ul>
+</article>
+
+
+
+
+<article>
+	<h1>Backup Slides</h1>
+</article>
+
+
+<article>
+	<h3>OOP-D More Details</h3>
+	<div style="text-align:center; padding-top: 30px; " >
+		<object data="oopd-behind-curtain.svg" height="400" alt="Servification Context"></object>
+	</div>
+</article>	
+
+
+<article>
+	<h3>Final State</h3>
+	<div style="text-align:center; padding-top: 30px; " >
+		<object data="viz-inside-parallel-skia.svg" height="600" alt="Servification Context"></object>
+	</div>
+</article>
+
+
+
+
+</section>
+</body>
+</html>

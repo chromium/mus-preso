@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 390" width="442" height="390">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="20" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.7.1 
+    <dc:date>2018-04-17 00:19:54 +0000</dc:date>
+  </metadata>
+  <g id="viz-context" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>viz-context</title>
+    <g id="viz-context: underlays">
+      <title>underlays</title>
+      <g id="Graphic_12">
+        <rect x="29.1875" y="137.25" width="122.625" height="121" fill="#ccc"/>
+        <rect x="29.1875" y="137.25" width="122.625" height="121" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(34.1875 235.302)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Browser</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <path d="M 260.3086 236.25 L 289.1914 236.25 L 289.1914 258.20312 L 305.6875 258.20312 L 274.75 276.5625 L 243.8125 258.20312 L 260.3086 258.20312 Z" fill="#c0bfff"/>
+        <path d="M 260.3086 236.25 L 289.1914 236.25 L 289.1914 258.20312 L 305.6875 258.20312 L 274.75 276.5625 L 243.8125 258.20312 L 260.3086 258.20312 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="viz-context: main">
+      <title>main</title>
+      <g id="Graphic_3">
+        <rect x="180" y="86.625" width="79.75" height="35" fill="white"/>
+        <rect x="180" y="86.625" width="79.75" height="35" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(185 94.901)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.699" y="15">Viz Client</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="289.75" y="86.625" width="79.75" height="35" fill="white"/>
+        <rect x="289.75" y="86.625" width="79.75" height="35" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(294.75 94.901)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.699" y="15">Viz Client</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(264.75 92.345)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="20" font-weight="400" fill="black" x="0" y="19">…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="50.625" y="145.125" width="79.75" height="35" fill="white"/>
+        <rect x="50.625" y="145.125" width="79.75" height="35" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(55.625 153.401)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.699" y="15">Viz Client</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="50.625" y="189" width="79.75" height="35" fill="white"/>
+        <rect x="50.625" y="189" width="79.75" height="35" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(55.625 197.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.403" y="15">Viz Host</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="220.5625" y="145.125" width="108.375" height="78.875" fill="white"/>
+        <rect x="220.5625" y="145.125" width="108.375" height="78.875" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(225.5625 175.3385)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="38.8275" y="15">Viz</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(191.25 288.095)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="20" font-weight="400" fill="black" x=".15" y="19">All Chrome Visuals</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

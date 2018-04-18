@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 981 286" width="981" height="286">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="0" y="0">
+      <feOffset in="SourceAlpha" result="offset" dx="0" dy="1"/>
+      <feFlood flood-color="black" flood-opacity=".15" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.7.1 
+    <dc:date>2018-04-17 03:24:08 +0000</dc:date>
+  </metadata>
+  <g id="viz-components-viz" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>viz-components-viz</title>
+    <g id="viz-components-viz: underlayer">
+      <title>underlayer</title>
+      <g id="Graphic_20">
+        <rect x="90" y="130.5" width="272.96875" height="82.125" fill="#ebebeb"/>
+        <rect x="90" y="130.5" width="272.96875" height="82.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(95 135.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Viz Host</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <rect x="378" y="132.75" width="529.875" height="77.625" fill="#ebebeb"/>
+        <rect x="378" y="132.75" width="529.875" height="77.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(383 137.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Viz</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="viz-components-viz: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_14">
+        <g id="Graphic_18">
+          <rect x="378" y="9" width="529.875" height="77.625" fill="#ebebeb"/>
+          <rect x="378" y="9" width="529.875" height="77.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(383 14)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Viz Client</tspan>
+          </text>
+        </g>
+        <g id="Graphic_17" filter="url(#Shadow)">
+          <path d="M 392.125 43.875 L 570.875 43.875 C 573.08414 43.875 574.875 45.66586 574.875 47.875 L 574.875 71.375 C 574.875 73.58414 573.08414 75.375 570.875 75.375 L 392.125 75.375 C 389.91586 75.375 388.125 73.58414 388.125 71.375 L 388.125 47.875 C 388.125 45.66586 389.91586 43.875 392.125 43.875 Z" fill="#d5fc79"/>
+          <path d="M 392.125 43.875 L 570.875 43.875 C 573.08414 43.875 574.875 45.66586 574.875 47.875 L 574.875 71.375 C 574.875 73.58414 573.08414 75.375 570.875 75.375 L 392.125 75.375 C 389.91586 75.375 388.125 73.58414 388.125 71.375 L 388.125 47.875 C 388.125 45.66586 389.91586 43.875 392.125 43.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(410.8 52.457)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".578" y="11">ClientLayerTreeFrameSink</tspan>
+          </text>
+        </g>
+        <g id="Graphic_16" filter="url(#Shadow)">
+          <path d="M 585.625 43.875 L 702.5 43.875 C 704.7091 43.875 706.5 45.66586 706.5 47.875 L 706.5 71.375 C 706.5 73.58414 704.7091 75.375 702.5 75.375 L 585.625 75.375 C 583.41586 75.375 581.625 73.58414 581.625 71.375 L 581.625 47.875 C 581.625 45.66586 583.41586 43.875 585.625 43.875 Z" fill="red"/>
+          <path d="M 585.625 43.875 L 702.5 43.875 C 704.7091 43.875 706.5 45.66586 706.5 47.875 L 706.5 71.375 C 706.5 73.58414 704.7091 75.375 702.5 75.375 L 585.625 75.375 C 583.41586 75.375 581.625 73.58414 581.625 71.375 L 581.625 47.875 C 581.625 45.66586 583.41586 43.875 585.625 43.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(602.1125 52.457)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="1.066" y="11">RasterInterface</tspan>
+          </text>
+        </g>
+        <g id="Graphic_15" filter="url(#Shadow)">
+          <path d="M 717.25 43.875 L 896 43.875 C 898.2091 43.875 900 45.66586 900 47.875 L 900 71.375 C 900 73.58414 898.2091 75.375 896 75.375 L 717.25 75.375 C 715.0409 75.375 713.25 73.58414 713.25 71.375 L 713.25 47.875 C 713.25 45.66586 715.0409 43.875 717.25 43.875 Z" fill="#437fd3"/>
+          <path d="M 717.25 43.875 L 896 43.875 C 898.2091 43.875 900 45.66586 900 47.875 L 900 71.375 C 900 73.58414 898.2091 75.375 896 75.375 L 717.25 75.375 C 715.0409 75.375 713.25 73.58414 713.25 71.375 L 713.25 47.875 C 713.25 45.66586 715.0409 43.875 717.25 43.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(739.925 52.457)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="24.478" y="11">GLES2Interface</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_21" filter="url(#Shadow)">
+        <path d="M 180.625 141.75 L 349.25 141.75 C 351.45914 141.75 353.25 143.54086 353.25 145.75 L 353.25 169.25 C 353.25 171.45914 351.45914 173.25 349.25 173.25 L 180.625 173.25 C 178.41586 173.25 176.625 171.45914 176.625 169.25 L 176.625 145.75 C 176.625 143.54086 178.41586 141.75 180.625 141.75 Z" fill="#d5fc79"/>
+        <path d="M 180.625 141.75 L 349.25 141.75 C 351.45914 141.75 353.25 143.54086 353.25 145.75 L 353.25 169.25 C 353.25 171.45914 351.45914 173.25 349.25 173.25 L 180.625 173.25 C 178.41586 173.25 176.625 171.45914 176.625 169.25 L 176.625 145.75 C 176.625 143.54086 178.41586 141.75 180.625 141.75 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(198.2875 150.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="1.64" y="11">HostFrameSinkManager</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12" filter="url(#Shadow)">
+        <path d="M 180.625 173.25 L 349.25 173.25 C 351.45914 173.25 353.25 175.04086 353.25 177.25 L 353.25 200.75 C 353.25 202.95914 351.45914 204.75 349.25 204.75 L 180.625 204.75 C 178.41586 204.75 176.625 202.95914 176.625 200.75 L 176.625 177.25 C 176.625 175.04086 178.41586 173.25 180.625 173.25 Z" fill="#437fd3"/>
+        <path d="M 180.625 173.25 L 349.25 173.25 C 351.45914 173.25 353.25 175.04086 353.25 177.25 L 353.25 200.75 C 353.25 202.95914 351.45914 204.75 349.25 204.75 L 180.625 204.75 C 178.41586 204.75 176.625 202.95914 176.625 200.75 L 176.625 177.25 C 176.625 175.04086 178.41586 173.25 180.625 173.25 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(202.2875 181.832)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="16.87" y="11">GpuProcessHost</tspan>
+        </text>
+      </g>
+      <g id="Line_11">
+        <line x1="481.6786" y1="75.375" x2="482.6126" y2="157.72583" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_10">
+        <line x1="644.0625" y1="75.375" x2="644.0625" y2="160.35" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_9">
+        <line x1="806.9667" y1="75.375" x2="808.7535" y2="157.72804" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_8">
+        <path d="M 576.34375 109.125 L 709.53125 109.125 C 711.7404 109.125 713.53125 110.91586 713.53125 113.125 L 713.53125 144.125 C 713.53125 146.33414 711.7404 148.125 709.53125 148.125 L 576.34375 148.125 C 574.1346 148.125 572.34375 146.33414 572.34375 144.125 L 572.34375 113.125 C 572.34375 110.91586 574.1346 109.125 576.34375 109.125 Z" fill="#fffdd7"/>
+        <path d="M 576.34375 109.125 L 709.53125 109.125 C 711.7404 109.125 713.53125 110.91586 713.53125 113.125 L 713.53125 144.125 C 713.53125 146.33414 711.7404 148.125 709.53125 148.125 L 576.34375 148.125 C 574.1346 148.125 572.34375 146.33414 572.34375 144.125 L 572.34375 113.125 C 572.34375 110.91586 574.1346 109.125 576.34375 109.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(577.34375 114.289)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="10.81975" y="11">Serialized Paint Item </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="53.03575" y="25.336">Lists</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 443.875 109.125 L 550.375 109.125 C 552.58414 109.125 554.375 110.91586 554.375 113.125 L 554.375 144.125 C 554.375 146.33414 552.58414 148.125 550.375 148.125 L 443.875 148.125 C 441.66586 148.125 439.875 146.33414 439.875 144.125 L 439.875 113.125 C 439.875 110.91586 441.66586 109.125 443.875 109.125 Z" fill="#fffdd7"/>
+        <path d="M 443.875 109.125 L 550.375 109.125 C 552.58414 109.125 554.375 110.91586 554.375 113.125 L 554.375 144.125 C 554.375 146.33414 552.58414 148.125 550.375 148.125 L 443.875 148.125 C 441.66586 148.125 439.875 146.33414 439.875 144.125 L 439.875 113.125 C 439.875 110.91586 441.66586 109.125 443.875 109.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(444.875 114.289)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="3.686" y="11">CompositorFrame </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7.808" y="25.336">objects over IPC</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 735.5 109.125 L 868.6875 109.125 C 870.8966 109.125 872.6875 110.91586 872.6875 113.125 L 872.6875 144.125 C 872.6875 146.33414 870.8966 148.125 868.6875 148.125 L 735.5 148.125 C 733.2909 148.125 731.5 146.33414 731.5 144.125 L 731.5 113.125 C 731.5 110.91586 733.2909 109.125 735.5 109.125 Z" fill="#fffdd7"/>
+        <path d="M 735.5 109.125 L 868.6875 109.125 C 870.8966 109.125 872.6875 110.91586 872.6875 113.125 L 872.6875 144.125 C 872.6875 146.33414 870.8966 148.125 868.6875 148.125 L 735.5 148.125 C 733.2909 148.125 731.5 146.33414 731.5 144.125 L 731.5 113.125 C 731.5 110.91586 733.2909 109.125 735.5 109.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(736.5 114.289)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="1.27975" y="11">Serialized virtualized GL </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="8.00575" y="25.336">over CommandBuffer</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27" filter="url(#Shadow)">
+        <path d="M 404.5 170.625 L 561.375 170.625 C 563.58414 170.625 565.375 172.41586 565.375 174.625 L 565.375 198.125 C 565.375 200.33414 563.58414 202.125 561.375 202.125 L 404.5 202.125 C 402.29086 202.125 400.5 200.33414 400.5 198.125 L 400.5 174.625 C 400.5 172.41586 402.29086 170.625 404.5 170.625 Z" fill="#d5fc79"/>
+        <path d="M 404.5 170.625 L 561.375 170.625 C 563.58414 170.625 565.375 172.41586 565.375 174.625 L 565.375 198.125 C 565.375 200.33414 563.58414 202.125 561.375 202.125 L 404.5 202.125 C 402.29086 202.125 400.5 200.33414 400.5 198.125 L 400.5 174.625 C 400.5 172.41586 402.29086 170.625 404.5 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(420.9875 179.207)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="9.054" y="11">Display Compositor</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28" filter="url(#Shadow)">
+        <path d="M 584.5 170.625 L 701.375 170.625 C 703.5841 170.625 705.375 172.41586 705.375 174.625 L 705.375 198.125 C 705.375 200.33414 703.5841 202.125 701.375 202.125 L 584.5 202.125 C 582.29086 202.125 580.5 200.33414 580.5 198.125 L 580.5 174.625 C 580.5 172.41586 582.29086 170.625 584.5 170.625 Z" fill="red"/>
+        <path d="M 584.5 170.625 L 701.375 170.625 C 703.5841 170.625 705.375 172.41586 705.375 174.625 L 705.375 198.125 C 705.375 200.33414 703.5841 202.125 701.375 202.125 L 584.5 202.125 C 582.29086 202.125 580.5 200.33414 580.5 198.125 L 580.5 174.625 C 580.5 172.41586 582.29086 170.625 584.5 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(600.9875 179.207)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="1.618" y="11">RasterDecoder </tspan>
+        </text>
+      </g>
+      <g id="Graphic_29" filter="url(#Shadow)">
+        <path d="M 720 170.625 L 898.75 170.625 C 900.9591 170.625 902.75 172.41586 902.75 174.625 L 902.75 198.125 C 902.75 200.33414 900.9591 202.125 898.75 202.125 L 720 202.125 C 717.7909 202.125 716 200.33414 716 198.125 L 716 174.625 C 716 172.41586 717.7909 170.625 720 170.625 Z" fill="#437fd3"/>
+        <path d="M 720 170.625 L 898.75 170.625 C 900.9591 170.625 902.75 172.41586 902.75 174.625 L 902.75 198.125 C 902.75 200.33414 900.9591 202.125 898.75 202.125 L 720 202.125 C 717.7909 202.125 716 200.33414 716 198.125 L 716 174.625 C 716 172.41586 717.7909 170.625 720 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(742.675 179.207)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="23.362" y="11">GLES2 Decoder</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
