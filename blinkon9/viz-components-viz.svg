@@ -28,7 +28,7 @@
     </marker>
   </defs>
   <metadata> Produced by OmniGraffle 7.7.1 
-    <dc:date>2018-04-17 03:24:08 +0000</dc:date>
+    <dc:date>2018-04-18 16:43:28 +0000</dc:date>
   </metadata>
   <g id="viz-components-viz" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
     <title>viz-components-viz</title>
@@ -81,7 +81,7 @@
           </text>
         </g>
       </g>
-      <g id="Graphic_21" filter="url(#Shadow)">
+      <g id="Graphic_13" filter="url(#Shadow)">
         <path d="M 180.625 141.75 L 349.25 141.75 C 351.45914 141.75 353.25 143.54086 353.25 145.75 L 353.25 169.25 C 353.25 171.45914 351.45914 173.25 349.25 173.25 L 180.625 173.25 C 178.41586 173.25 176.625 171.45914 176.625 169.25 L 176.625 145.75 C 176.625 143.54086 178.41586 141.75 180.625 141.75 Z" fill="#d5fc79"/>
         <path d="M 180.625 141.75 L 349.25 141.75 C 351.45914 141.75 353.25 143.54086 353.25 145.75 L 353.25 169.25 C 353.25 171.45914 351.45914 173.25 349.25 173.25 L 180.625 173.25 C 178.41586 173.25 176.625 171.45914 176.625 169.25 L 176.625 145.75 C 176.625 143.54086 178.41586 141.75 180.625 141.75 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(198.2875 150.332)" fill="black">
@@ -128,21 +128,21 @@
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="8.00575" y="25.336">over CommandBuffer</tspan>
         </text>
       </g>
-      <g id="Graphic_27" filter="url(#Shadow)">
+      <g id="Graphic_5" filter="url(#Shadow)">
         <path d="M 404.5 170.625 L 561.375 170.625 C 563.58414 170.625 565.375 172.41586 565.375 174.625 L 565.375 198.125 C 565.375 200.33414 563.58414 202.125 561.375 202.125 L 404.5 202.125 C 402.29086 202.125 400.5 200.33414 400.5 198.125 L 400.5 174.625 C 400.5 172.41586 402.29086 170.625 404.5 170.625 Z" fill="#d5fc79"/>
         <path d="M 404.5 170.625 L 561.375 170.625 C 563.58414 170.625 565.375 172.41586 565.375 174.625 L 565.375 198.125 C 565.375 200.33414 563.58414 202.125 561.375 202.125 L 404.5 202.125 C 402.29086 202.125 400.5 200.33414 400.5 198.125 L 400.5 174.625 C 400.5 172.41586 402.29086 170.625 404.5 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(420.9875 179.207)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="9.054" y="11">Display Compositor</tspan>
         </text>
       </g>
-      <g id="Graphic_28" filter="url(#Shadow)">
+      <g id="Graphic_4" filter="url(#Shadow)">
         <path d="M 584.5 170.625 L 701.375 170.625 C 703.5841 170.625 705.375 172.41586 705.375 174.625 L 705.375 198.125 C 705.375 200.33414 703.5841 202.125 701.375 202.125 L 584.5 202.125 C 582.29086 202.125 580.5 200.33414 580.5 198.125 L 580.5 174.625 C 580.5 172.41586 582.29086 170.625 584.5 170.625 Z" fill="red"/>
         <path d="M 584.5 170.625 L 701.375 170.625 C 703.5841 170.625 705.375 172.41586 705.375 174.625 L 705.375 198.125 C 705.375 200.33414 703.5841 202.125 701.375 202.125 L 584.5 202.125 C 582.29086 202.125 580.5 200.33414 580.5 198.125 L 580.5 174.625 C 580.5 172.41586 582.29086 170.625 584.5 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(600.9875 179.207)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="1.618" y="11">RasterDecoder </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="7.072" y="11">Rasterization </tspan>
         </text>
       </g>
-      <g id="Graphic_29" filter="url(#Shadow)">
+      <g id="Graphic_3" filter="url(#Shadow)">
         <path d="M 720 170.625 L 898.75 170.625 C 900.9591 170.625 902.75 172.41586 902.75 174.625 L 902.75 198.125 C 902.75 200.33414 900.9591 202.125 898.75 202.125 L 720 202.125 C 717.7909 202.125 716 200.33414 716 198.125 L 716 174.625 C 716 172.41586 717.7909 170.625 720 170.625 Z" fill="#437fd3"/>
         <path d="M 720 170.625 L 898.75 170.625 C 900.9591 170.625 902.75 172.41586 902.75 174.625 L 902.75 198.125 C 902.75 200.33414 900.9591 202.125 898.75 202.125 L 720 202.125 C 717.7909 202.125 716 200.33414 716 198.125 L 716 174.625 C 716 172.41586 717.7909 170.625 720 170.625 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(742.675 179.207)" fill="white">

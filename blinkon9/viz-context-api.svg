@@ -38,20 +38,20 @@
     </font-face>
   </defs>
   <metadata> Produced by OmniGraffle 7.7.1 
-    <dc:date>2018-04-17 01:05:32 +0000</dc:date>
+    <dc:date>2018-04-18 16:43:28 +0000</dc:date>
   </metadata>
   <g id="viz-context-api" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
     <title>viz-context-api</title>
     <g id="viz-context-api: underlayer">
       <title>underlayer</title>
-      <g id="Graphic_17">
+      <g id="Graphic_20">
         <rect x="91.125" y="292.5" width="272.96875" height="82.125" fill="#ebebeb"/>
         <rect x="91.125" y="292.5" width="272.96875" height="82.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(96.125 297.5)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Viz Host</tspan>
         </text>
       </g>
-      <g id="Graphic_16">
+      <g id="Graphic_19">
         <rect x="379.125" y="294.75" width="529.875" height="77.625" fill="#ebebeb"/>
         <rect x="379.125" y="294.75" width="529.875" height="77.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(384.125 299.75)" fill="black">
@@ -61,29 +61,29 @@
     </g>
     <g id="viz-context-api: Layer 1">
       <title>Layer 1</title>
-      <g id="Group_11">
-        <g id="Graphic_15">
+      <g id="Group_14">
+        <g id="Graphic_18">
           <rect x="379.125" y="171" width="529.875" height="77.625" fill="#ebebeb"/>
           <rect x="379.125" y="171" width="529.875" height="77.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <text transform="translate(384.125 176)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Viz Client</tspan>
           </text>
         </g>
-        <g id="Graphic_14" filter="url(#Shadow)">
+        <g id="Graphic_17" filter="url(#Shadow)">
           <path d="M 393.25 205.875 L 572 205.875 C 574.20914 205.875 576 207.66586 576 209.875 L 576 233.375 C 576 235.58414 574.20914 237.375 572 237.375 L 393.25 237.375 C 391.04086 237.375 389.25 235.58414 389.25 233.375 L 389.25 209.875 C 389.25 207.66586 391.04086 205.875 393.25 205.875 Z" fill="#d5fc79"/>
           <path d="M 393.25 205.875 L 572 205.875 C 574.20914 205.875 576 207.66586 576 209.875 L 576 233.375 C 576 235.58414 574.20914 237.375 572 237.375 L 393.25 237.375 C 391.04086 237.375 389.25 235.58414 389.25 233.375 L 389.25 209.875 C 389.25 207.66586 391.04086 205.875 393.25 205.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <text transform="translate(411.925 214.457)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".578" y="11">ClientLayerTreeFrameSink</tspan>
           </text>
         </g>
-        <g id="Graphic_13" filter="url(#Shadow)">
+        <g id="Graphic_16" filter="url(#Shadow)">
           <path d="M 586.75 205.875 L 703.625 205.875 C 705.8341 205.875 707.625 207.66586 707.625 209.875 L 707.625 233.375 C 707.625 235.58414 705.8341 237.375 703.625 237.375 L 586.75 237.375 C 584.54086 237.375 582.75 235.58414 582.75 233.375 L 582.75 209.875 C 582.75 207.66586 584.54086 205.875 586.75 205.875 Z" fill="red"/>
           <path d="M 586.75 205.875 L 703.625 205.875 C 705.8341 205.875 707.625 207.66586 707.625 209.875 L 707.625 233.375 C 707.625 235.58414 705.8341 237.375 703.625 237.375 L 586.75 237.375 C 584.54086 237.375 582.75 235.58414 582.75 233.375 L 582.75 209.875 C 582.75 207.66586 584.54086 205.875 586.75 205.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <text transform="translate(603.2375 214.457)" fill="white">
             <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="1.066" y="11">RasterInterface</tspan>
           </text>
         </g>
-        <g id="Graphic_12" filter="url(#Shadow)">
+        <g id="Graphic_15" filter="url(#Shadow)">
           <path d="M 718.375 205.875 L 897.125 205.875 C 899.3341 205.875 901.125 207.66586 901.125 209.875 L 901.125 233.375 C 901.125 235.58414 899.3341 237.375 897.125 237.375 L 718.375 237.375 C 716.1659 237.375 714.375 235.58414 714.375 233.375 L 714.375 209.875 C 714.375 207.66586 716.1659 205.875 718.375 205.875 Z" fill="#437fd3"/>
           <path d="M 718.375 205.875 L 897.125 205.875 C 899.3341 205.875 901.125 207.66586 901.125 209.875 L 901.125 233.375 C 901.125 235.58414 899.3341 237.375 897.125 237.375 L 718.375 237.375 C 716.1659 237.375 714.375 235.58414 714.375 233.375 L 714.375 209.875 C 714.375 207.66586 716.1659 205.875 718.375 205.875 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <text transform="translate(741.05 214.457)" fill="white">
@@ -91,30 +91,30 @@
           </text>
         </g>
       </g>
-      <g id="Graphic_10" filter="url(#Shadow)">
+      <g id="Graphic_13" filter="url(#Shadow)">
         <path d="M 181.75 303.75 L 350.375 303.75 C 352.58414 303.75 354.375 305.54086 354.375 307.75 L 354.375 331.25 C 354.375 333.45914 352.58414 335.25 350.375 335.25 L 181.75 335.25 C 179.54086 335.25 177.75 333.45914 177.75 331.25 L 177.75 307.75 C 177.75 305.54086 179.54086 303.75 181.75 303.75 Z" fill="#d5fc79"/>
         <path d="M 181.75 303.75 L 350.375 303.75 C 352.58414 303.75 354.375 305.54086 354.375 307.75 L 354.375 331.25 C 354.375 333.45914 352.58414 335.25 350.375 335.25 L 181.75 335.25 C 179.54086 335.25 177.75 333.45914 177.75 331.25 L 177.75 307.75 C 177.75 305.54086 179.54086 303.75 181.75 303.75 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(199.4125 312.332)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="1.64" y="11">HostFrameSinkManager</tspan>
         </text>
       </g>
-      <g id="Graphic_9" filter="url(#Shadow)">
+      <g id="Graphic_12" filter="url(#Shadow)">
         <path d="M 181.75 335.25 L 350.375 335.25 C 352.58414 335.25 354.375 337.04086 354.375 339.25 L 354.375 362.75 C 354.375 364.95914 352.58414 366.75 350.375 366.75 L 181.75 366.75 C 179.54086 366.75 177.75 364.95914 177.75 362.75 L 177.75 339.25 C 177.75 337.04086 179.54086 335.25 181.75 335.25 Z" fill="#437fd3"/>
         <path d="M 181.75 335.25 L 350.375 335.25 C 352.58414 335.25 354.375 337.04086 354.375 339.25 L 354.375 362.75 C 354.375 364.95914 352.58414 366.75 350.375 366.75 L 181.75 366.75 C 179.54086 366.75 177.75 364.95914 177.75 362.75 L 177.75 339.25 C 177.75 337.04086 179.54086 335.25 181.75 335.25 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(203.4125 343.832)" fill="white">
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="white" x="16.87" y="11">GpuProcessHost</tspan>
         </text>
       </g>
-      <g id="Line_8">
+      <g id="Line_11">
         <line x1="486.8994" y1="237.375" x2="510.08284" y2="322.80033" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
-      <g id="Line_7">
+      <g id="Line_10">
         <line x1="645.1875" y1="237.375" x2="645.1875" y2="322.35" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
-      <g id="Line_6">
+      <g id="Line_9">
         <line x1="803.7435" y1="237.375" x2="782.0264" y2="322.74815" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
-      <g id="Graphic_5">
+      <g id="Graphic_8">
         <path d="M 577.46875 271.125 L 710.65625 271.125 C 712.8654 271.125 714.65625 272.91586 714.65625 275.125 L 714.65625 306.125 C 714.65625 308.33414 712.8654 310.125 710.65625 310.125 L 577.46875 310.125 C 575.2596 310.125 573.46875 308.33414 573.46875 306.125 L 573.46875 275.125 C 573.46875 272.91586 575.2596 271.125 577.46875 271.125 Z" fill="#fffdd7"/>
         <path d="M 577.46875 271.125 L 710.65625 271.125 C 712.8654 271.125 714.65625 272.91586 714.65625 275.125 L 714.65625 306.125 C 714.65625 308.33414 712.8654 310.125 710.65625 310.125 L 577.46875 310.125 C 575.2596 310.125 573.46875 308.33414 573.46875 306.125 L 573.46875 275.125 C 573.46875 272.91586 575.2596 271.125 577.46875 271.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(578.46875 276.289)" fill="black">
@@ -122,7 +122,7 @@
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="53.03575" y="25.336">Lists</tspan>
         </text>
       </g>
-      <g id="Graphic_4">
+      <g id="Graphic_7">
         <path d="M 445 271.125 L 551.5 271.125 C 553.70914 271.125 555.5 272.91586 555.5 275.125 L 555.5 306.125 C 555.5 308.33414 553.70914 310.125 551.5 310.125 L 445 310.125 C 442.79086 310.125 441 308.33414 441 306.125 L 441 275.125 C 441 272.91586 442.79086 271.125 445 271.125 Z" fill="#fffdd7"/>
         <path d="M 445 271.125 L 551.5 271.125 C 553.70914 271.125 555.5 272.91586 555.5 275.125 L 555.5 306.125 C 555.5 308.33414 553.70914 310.125 551.5 310.125 L 445 310.125 C 442.79086 310.125 441 308.33414 441 306.125 L 441 275.125 C 441 272.91586 442.79086 271.125 445 271.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(446 276.289)" fill="black">
@@ -130,7 +130,7 @@
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7.808" y="25.336">objects over IPC</tspan>
         </text>
       </g>
-      <g id="Graphic_3">
+      <g id="Graphic_6">
         <path d="M 736.625 271.125 L 869.8125 271.125 C 872.0216 271.125 873.8125 272.91586 873.8125 275.125 L 873.8125 306.125 C 873.8125 308.33414 872.0216 310.125 869.8125 310.125 L 736.625 310.125 C 734.4159 310.125 732.625 308.33414 732.625 306.125 L 732.625 275.125 C 732.625 272.91586 734.4159 271.125 736.625 271.125 Z" fill="#fffdd7"/>
         <path d="M 736.625 271.125 L 869.8125 271.125 C 872.0216 271.125 873.8125 272.91586 873.8125 275.125 L 873.8125 306.125 C 873.8125 308.33414 872.0216 310.125 869.8125 310.125 L 736.625 310.125 C 734.4159 310.125 732.625 308.33414 732.625 306.125 L 732.625 275.125 C 732.625 272.91586 734.4159 271.125 736.625 271.125 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(737.625 276.289)" fill="black">
@@ -138,19 +138,19 @@
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="8.00575" y="25.336">over CommandBuffer</tspan>
         </text>
       </g>
-      <g id="Graphic_18">
-        <text transform="translate(421.25 91.19092)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="24" font-weight="400" fill="black" x=".204" y="23">Composting</tspan>
-          <tspan font-family="Helvetica Neue" font-size="24" font-weight="700" fill="black" x="25.548" y="51.672">OOP-D</tspan>
+      <g id="Graphic_5">
+        <text transform="translate(418.75 91.19092)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="24" font-weight="400" fill="black" x=".04" y="23">Compositing</tspan>
+          <tspan font-family="Helvetica Neue" font-size="24" font-weight="700" fill="black" x="28.048" y="51.672">OOP-D</tspan>
         </text>
       </g>
-      <g id="Graphic_19">
+      <g id="Graphic_4">
         <text transform="translate(581.9375 91.19092)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="24" font-weight="400" fill="black" x=".244" y="23">Rasterization</tspan>
           <tspan font-family="Helvetica Neue" font-size="24" font-weight="700" fill="black" x="29.776" y="51.672">OOP-R</tspan>
         </text>
       </g>
-      <g id="Graphic_20">
+      <g id="Graphic_3">
         <text transform="translate(771.09375 91.039)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="24" font-weight="400" fill="black" x=".232" y="23">WebGL</tspan>
         </text>

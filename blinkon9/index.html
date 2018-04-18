@@ -47,7 +47,8 @@ on what remains to be done.
 <!--
 	What's  Viz anyway.
 
-	Each of these clients are renderers. 
+	Let's put it in context with a diagram
+
 -->
 
 <article>
@@ -61,14 +62,23 @@ on what remains to be done.
 	</div>
 	</li>
 	<li>For the site-isolated web</li>
-	<li>For  over 20% better performance</li>
+	<li>To improve graphics performance 20% or more</li>
 	</ul>
 
 </article>
 
 <!--
 
-We can go deeper. Viz has three major sub-systems.
+Viz APIs can be sub-divided into four categories
+
+Starting at the left...
+
+the viz host is a privileged process responsible for starting and restarting viz, monitoring,
+configuration etc.
+
+In particular: Viz runs in the same sandbox as the GPU process and viz delegates to the
+host all actions that require a higher privilege level.
+
 
 -->
 
@@ -174,7 +184,7 @@ TODO(rjk): Shrink the images
 
 	<ul class="build">
 	<li>UI can asynchronusly request atomic update of itself and web platform children</li>
-	<li>On in <span style="text-decoration: line-through;">m64</span> <strong>m67</strong> on desktop.  Targeting m68 for Android</li>
+	<li>On in <span style="text-decoration: line-through;">m64</span> <strong>m66</strong> on desktop.  Targeting m68 for Android</li>
 	<li>Required for OOP-D. But also reduces UI variance!</li>
 		<ul class="build">
 		<li>Foreground Tab First Loaded<br>
@@ -229,7 +239,7 @@ A further mitation for site isolation and relocating the d
 	<ul class="build">
 	<li>OOP-D can increase overdraw on CrOS and for site isolated frames</li>
 	<li>Mitigate with enhanced draw conclusion</li>
-	<li>Reduces power consumption and improves frame times. E.g.:
+	<li>Reduces power consumption 20% on CrOS:
 			<img src="occlusion-example.png" height=240 >
 	</li>
 	<li>In trial now <code>#enable-draw-occlusion</code></li>
@@ -260,7 +270,7 @@ think through the transition...
 	</div>
 	</li>
 	<li>Enable <code>--enable-gpu-rasterization --enable-oop-rasterization</code></li>
-	<li>Trial in <strong>m69</strong></li>
+	<li>Trial in <strong>m70</strong></li>
 	</ul>
 </article>
 
@@ -343,7 +353,7 @@ event targeting...
 		</ul>
 	</li>
 	<li>We've made progress. First benefits now reaching stable</li>
-	<li>More to come</li>
+	<li>Lots more to come</li>
 	</ul>
 </article>
 
