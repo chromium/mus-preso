@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Viz Roadmap</title>
+	<script src="slides.js"></script>
+	<style>
+		.ak h3 {
+			font-size: 48px;
+		}
+		.ak pre {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body class="ak" style="display: none;">
+<section class="slides layout-widescreen template-default">
+
+<article>
+	<h1>Planning Prep</h1>
+	<p>2018/01/25</p>
+</article>
+
+<article>
+	<h3>You Are Here Status</h3>
+
+	<ul class="build">
+	<li>Surface references <em>everywhere</em></li>
+	<li>Surface sync  (because OOP-D needs it) 
+		<ul class="build">
+		<li>all aura platforms <em>Yay!</em></li>
+		<li>Mac in progress</li>
+		<li><em>Android, Webview</em></li>
+		</ul>
+	</ul>
+</article>	
+
+
+<article>
+	<h3>OOP-D</h3>
+
+	<ul class="build">
+	<li>We have a relocated display compositor (OOP-D)
+	<div style="text-align:center" >
+		<object data="display-compositor-now.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Built for Linux, windows</li>
+	<li>Mac in progress</li>
+	<li><em>Android, Webview</em></li>
+	</ul>
+</article>	
+
+
+
+<article>
+	<h3>OOP-R (wat portion)</h3>
+
+	<ul class="build">
+	<li>We have an in-progress <code>RasterStub</code> and <code>RasterDecoder</code>
+	<div style="text-align:center" >
+		<object data="oopr-now.svg" height="260" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li><em>Complete with direct GL backing</em></li>
+	</ul>
+</article>	
+
+
+<article>
+	<h3>SkiaRenderer</h3>
+	<ul class="build">
+	<li>Why: to get compositing on Vulkan</li>
+	<li>We have a nearly-done SkiaRenderer
+	<div style="text-align:center" >
+		<object data="viz-inside-skia-renderer.svg" height="320" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li><em>Complete correctness tests</em> (so we know how done we are)</li>
+	<li><em>Do performance tests</em></li>
+	<li><em>Design readback</em></li>
+	</ul>
+</article>
+
+
+<article>
+	<h3>Skia Adapter</h3>
+
+	<ul class="build">
+	<li>Need a connection between OOP-R and OOP-D
+	<div style="text-align:center" >
+		<object data="tadpole-oopr-combined.svg" height="320" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li>Establishing requirements for Skia team in progress</li>
+	<li><em>Detailed design</em></li>
+	</ul>
+</article>
+
+<article>
+	<h3>Event Targeting</h3>
+
+	<ul class="build">
+	<li>Why: So events work with site isolation in M65</li>
+	<li>Working immediate mode targeting
+	<div style="text-align:center" >
+		<object data="async-event-targeting.svg" height="360" alt="Servification Context"></object>
+	</div>
+	</li>
+	<li><em>V1 targeting</em> next to support OOP-D</li>
+	</ul>
+</article>
+
+</section>
+</body>
+</html>

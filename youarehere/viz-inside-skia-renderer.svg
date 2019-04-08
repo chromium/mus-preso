@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 428.5625 486.0044" width="428.5625pt" height="486.0044pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2018-01-25 18:25:55 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" result="offset" dx="0" dy="1"/>
+      <feFlood flood-color="black" flood-opacity=".15" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>viz-inside-skia-renderer</title>
+    <g>
+      <title>underlayer</title>
+      <rect x="20.8125" y="141.25439" width="335.25" height="272.25" fill="#ebebeb"/>
+      <rect x="20.8125" y="141.25439" width="335.25" height="272.25" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(25.8125 146.25439)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="bold" x="174.802" y="16" textLength="150.448">Display Compositor</tspan>
+      </text>
+    </g>
+    <g>
+      <title>Layer 1</title>
+      <g filter="url(#Shadow)">
+        <path d="M 37.75 282.53125 L 172.625 282.53125 C 174.83414 282.53125 176.625 284.3221 176.625 286.53125 L 176.625 310.03125 C 176.625 312.2404 174.83414 314.03125 172.625 314.03125 L 37.75 314.03125 C 35.54086 314.03125 33.75 312.2404 33.75 310.03125 L 33.75 286.53125 C 33.75 284.3221 35.54086 282.53125 37.75 282.53125 Z" fill="#d5fc79"/>
+        <path d="M 37.75 282.53125 L 172.625 282.53125 C 174.83414 282.53125 176.625 284.3221 176.625 286.53125 L 176.625 310.03125 C 176.625 312.2404 174.83414 314.03125 172.625 314.03125 L 37.75 314.03125 C 35.54086 314.03125 33.75 312.2404 33.75 310.03125 L 33.75 286.53125 C 33.75 284.3221 35.54086 282.53125 37.75 282.53125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(52.0375 291.11325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="17.036" y="11" textLength="62.004">SkiaRender</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="78.824" y="11" textLength="10.44">er</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 37.75 345.53125 L 172.625 345.53125 C 174.83414 345.53125 176.625 347.3221 176.625 349.53125 L 176.625 373.03125 C 176.625 375.2404 174.83414 377.03125 172.625 377.03125 L 37.75 377.03125 C 35.54086 377.03125 33.75 375.2404 33.75 373.03125 L 33.75 349.53125 C 33.75 347.3221 35.54086 345.53125 37.75 345.53125 Z" fill="#999"/>
+        <path d="M 37.75 345.53125 L 172.625 345.53125 C 174.83414 345.53125 176.625 347.3221 176.625 349.53125 L 176.625 373.03125 C 176.625 375.2404 174.83414 377.03125 172.625 377.03125 L 37.75 377.03125 C 35.54086 377.03125 33.75 375.2404 33.75 373.03125 L 33.75 349.53125 C 33.75 347.3221 35.54086 345.53125 37.75 345.53125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(56.0375 346.94525)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="41.26" y="11" textLength="19.116">GL </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="1.672" y="25.336" textLength="84.516">CommanadBuff</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="86.188" y="25.336" textLength="10.44">er</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 37.75 314.03125 L 172.625 314.03125 C 174.83414 314.03125 176.625 315.8221 176.625 318.03125 L 176.625 341.53125 C 176.625 343.7404 174.83414 345.53125 172.625 345.53125 L 37.75 345.53125 C 35.54086 345.53125 33.75 343.7404 33.75 341.53125 L 33.75 318.03125 C 33.75 315.8221 35.54086 314.03125 37.75 314.03125 Z" fill="#c0c0ff"/>
+        <path d="M 37.75 314.03125 L 172.625 314.03125 C 174.83414 314.03125 176.625 315.8221 176.625 318.03125 L 176.625 341.53125 C 176.625 343.7404 174.83414 345.53125 172.625 345.53125 L 37.75 345.53125 C 35.54086 345.53125 33.75 343.7404 33.75 341.53125 L 33.75 318.03125 C 33.75 315.8221 35.54086 314.03125 37.75 314.03125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(52.0375 322.61325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="41.594" y="11" textLength="23.112">Skia</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 37.75 168.28125 L 339.125 168.28125 C 341.33414 168.28125 343.125 170.07211 343.125 172.28125 L 343.125 195.78125 C 343.125 197.9904 341.33414 199.78125 339.125 199.78125 L 37.75 199.78125 C 35.54086 199.78125 33.75 197.9904 33.75 195.78125 L 33.75 172.28125 C 33.75 170.07211 35.54086 168.28125 37.75 168.28125 Z" fill="#d5fc79"/>
+        <path d="M 37.75 168.28125 L 339.125 168.28125 C 341.33414 168.28125 343.125 170.07211 343.125 172.28125 L 343.125 195.78125 C 343.125 197.9904 341.33414 199.78125 339.125 199.78125 L 37.75 199.78125 C 35.54086 199.78125 33.75 197.9904 33.75 195.78125 L 33.75 172.28125 C 33.75 170.07211 35.54086 168.28125 37.75 168.28125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(68.6875 176.86325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="67.406" y="11" textLength="104.688">FrameSinkManager</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 37.75 199.78125 L 190.625 199.78125 C 192.83414 199.78125 194.625 201.5721 194.625 203.78125 L 194.625 227.28125 C 194.625 229.4904 192.83414 231.28125 190.625 231.28125 L 37.75 231.28125 C 35.54086 231.28125 33.75 229.4904 33.75 227.28125 L 33.75 203.78125 C 33.75 201.5721 35.54086 199.78125 37.75 199.78125 Z" fill="#ffb66c"/>
+        <path d="M 37.75 199.78125 L 190.625 199.78125 C 192.83414 199.78125 194.625 201.5721 194.625 203.78125 L 194.625 227.28125 C 194.625 229.4904 192.83414 231.28125 190.625 231.28125 L 37.75 231.28125 C 35.54086 231.28125 33.75 229.4904 33.75 227.28125 L 33.75 203.78125 C 33.75 201.5721 35.54086 199.78125 37.75 199.78125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(57.8375 208.36325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="2.02" y="11" textLength="21.996">HitT</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="22.684" y="11" textLength="41.772">estAggr</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="64.24" y="11" textLength="46.44">egator…</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 198.625 199.78125 L 339.125 199.78125 C 341.33414 199.78125 343.125 201.5721 343.125 203.78125 L 343.125 227.28125 C 343.125 229.4904 341.33414 231.28125 339.125 231.28125 L 198.625 231.28125 C 196.41586 231.28125 194.625 229.4904 194.625 227.28125 L 194.625 203.78125 C 194.625 201.5721 196.41586 199.78125 198.625 199.78125 Z" fill="#d5fc79"/>
+        <path d="M 198.625 199.78125 L 339.125 199.78125 C 341.33414 199.78125 343.125 201.5721 343.125 203.78125 L 343.125 227.28125 C 343.125 229.4904 341.33414 231.28125 339.125 231.28125 L 198.625 231.28125 C 196.41586 231.28125 194.625 229.4904 194.625 227.28125 L 194.625 203.78125 C 194.625 201.5721 196.41586 199.78125 198.625 199.78125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(213.475 208.36325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="4.85" y="11" textLength="66.876">SurfaceAggr</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="71.51" y="11" textLength="34.44">egator</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 198.625 231.28125 L 339.125 231.28125 C 341.33414 231.28125 343.125 233.0721 343.125 235.28125 L 343.125 258.78125 C 343.125 260.9904 341.33414 262.78125 339.125 262.78125 L 198.625 262.78125 C 196.41586 262.78125 194.625 260.9904 194.625 258.78125 L 194.625 235.28125 C 194.625 233.0721 196.41586 231.28125 198.625 231.28125 Z" fill="#d5fc79"/>
+        <path d="M 198.625 231.28125 L 339.125 231.28125 C 341.33414 231.28125 343.125 233.0721 343.125 235.28125 L 343.125 258.78125 C 343.125 260.9904 341.33414 262.78125 339.125 262.78125 L 198.625 262.78125 C 196.41586 262.78125 194.625 260.9904 194.625 258.78125 L 194.625 235.28125 C 194.625 233.0721 196.41586 231.28125 198.625 231.28125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(213.475 239.86325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="28.616" y="11" textLength="53.568">Occlusion</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 204.25 282.53125 L 339.125 282.53125 C 341.33414 282.53125 343.125 284.3221 343.125 286.53125 L 343.125 310.03125 C 343.125 312.2404 341.33414 314.03125 339.125 314.03125 L 204.25 314.03125 C 202.04086 314.03125 200.25 312.2404 200.25 310.03125 L 200.25 286.53125 C 200.25 284.3221 202.04086 282.53125 204.25 282.53125 Z" fill="#d5fc79"/>
+        <path d="M 204.25 282.53125 L 339.125 282.53125 C 341.33414 282.53125 343.125 284.3221 343.125 286.53125 L 343.125 310.03125 C 343.125 312.2404 341.33414 314.03125 339.125 314.03125 L 204.25 314.03125 C 202.04086 314.03125 200.25 312.2404 200.25 310.03125 L 200.25 286.53125 C 200.25 284.3221 202.04086 282.53125 204.25 282.53125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(218.5375 291.11325)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="20.702" y="11" textLength="54.672">GLRender</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="75.158" y="11" textLength="10.44">er</tspan>
+        </text>
+      </g>
+      <g filter="url(#Shadow)">
+        <path d="M 204.25 314.03125 L 339.125 314.03125 C 341.33414 314.03125 343.125 315.8221 343.125 318.03125 L 343.125 341.53125 C 343.125 343.7404 341.33414 345.53125 339.125 345.53125 L 204.25 345.53125 C 202.04086 345.53125 200.25 343.7404 200.25 341.53125 L 200.25 318.03125 C 200.25 315.8221 202.04086 314.03125 204.25 314.03125 Z" fill="#999"/>
+        <path d="M 204.25 314.03125 L 339.125 314.03125 C 341.33414 314.03125 343.125 315.8221 343.125 318.03125 L 343.125 341.53125 C 343.125 343.7404 341.33414 345.53125 339.125 345.53125 L 204.25 345.53125 C 202.04086 345.53125 200.25 343.7404 200.25 341.53125 L 200.25 318.03125 C 200.25 315.8221 202.04086 314.03125 204.25 314.03125 Z" stroke="#753935" stroke-opacity=".75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(222.5375 315.44525)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="41.26" y="11" textLength="19.116">GL </tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="1.672" y="25.336" textLength="84.516">CommanadBuff</tspan><tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="white" x="86.188" y="25.336" textLength="10.44">er</tspan>
+        </text>
+      </g>
+      <rect x="27" y="276.34375" width="156.375" height="43.875" stroke="#b1001c" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
