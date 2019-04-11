@@ -13,7 +13,7 @@ Slide decks here:
 *  [Event Targeting Update](https://goo.gl/YKM4tF) All the latest (August 8, 2017) on the status of the event targeting rework for viz.
 *  [Seprable Objectives](https://goo.gl/rpiWbW) Overview of decoupling viz and mus launch schedules.
 *  [Viz: Roadmap 2018](https://goo.gl/yLE6cM) Roadmap for Viz team work in 2018.
-*  [GPU Team Meetup 2019]() Vulkan/Chrome Overview slides from GPU Team meetup.
+*  [GPU Team Meetup 2019](https://chromium.github.io/mus-preso/gpumeetup19/slides.html) Vulkan/Chrome Overview slides from GPU Team meetup.
 
 # Production Notes
 Some people asked me how I made these slides. I did this:
