@@ -13,10 +13,12 @@ Slide decks here:
 *  [Event Targeting Update](https://goo.gl/YKM4tF) All the latest (August 8, 2017) on the status of the event targeting rework for viz.
 *  [Seprable Objectives](https://goo.gl/rpiWbW) Overview of decoupling viz and mus launch schedules.
 *  [Viz: Roadmap 2018](https://goo.gl/yLE6cM) Roadmap for Viz team work in 2018.
+*  [GPU Team Meetup 2019]() Vulkan/Chrome Overview slides from GPU Team meetup.
 
 # Production Notes
 Some people asked me how I made these slides. I did this:
 
 * I wrote `html` content using the [Google HTML5 slides template](https://code.google.com/archive/p/html5slides/). It makes very pretty slides. Good use of the web platform seems appropriate for slides about Chrome.
+* Or I used [pandoc](http://pandoc.org) to process Markdown into HTML5 slides.
 * I drew diagrams in OmniGraffle.
 * I exported SVG per diagram and removed the layout-affecting spaces between `<tspan>` elements with the following [sam](http://doc.cat-v.org/bell_labs/sam_lang_tutorial/) script: `X/\.svg$/  ,x:</tspan>[\n ]*<tspan: x:>[\n ]*<: c:><:`.
