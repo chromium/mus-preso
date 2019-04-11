@@ -5,7 +5,7 @@ author:
 date: "April"
 ...
 <!--
-pandoc -t dzslides -s test.md -o habits.html ; cat habits.html | sed 's/margin-top: 200px;/margin-top: 20px;/' > slides.html
+pandoc -t dzslides -s slides.md  | sed 's/margin-top: 200px;/margin-top: 20px;/' > slides.html
 -->
 
 ## Why Vulkan?
