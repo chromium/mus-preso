@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-15 97 387 501" width="387" height="501">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.17.1\n2020-07-28 16:02:13 +0000</metadata>
+  <g id="delegated_compositing" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none" stroke-dasharray="none">
+    <title>delegated_compositing</title>
+    <rect fill="white" x="-15" y="97" width="387" height="501"/>
+    <g id="delegated_compositing_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_6">
+        <rect x="1.646" y="334.948" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <rect x="11.646" y="345.948" width="82.5" height="82.5" fill="white"/>
+        <rect x="11.646" y="345.948" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8">
+        <rect x="22.646" y="358.948" width="82.5" height="82.5" fill="white"/>
+        <rect x="22.646" y="358.948" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_9">
+        <path d="M 73.723725 511.10664 C 50.692875 508.448 59.877 486.0666 96.61635 489.8855 C 100.02495 482.4412 142.74788 483.6495 142.46858 489.8855 C 169.25715 481.90956 203.49135 497.8134 180.5289 505.78935 C 208.0827 509.6563 180.1812 530.49084 157.56788 527.0105 C 155.75813 532.8114 115.3323 534.8414 111.78405 527.0105 C 88.89285 535.3735 41.16105 522.5149 73.723725 511.10664 Z" fill="white"/>
+        <path d="M 73.723725 511.10664 C 50.692875 508.448 59.877 486.0666 96.61635 489.8855 C 100.02495 482.4412 142.74788 483.6495 142.46858 489.8855 C 169.25715 481.90956 203.49135 497.8134 180.5289 505.78935 C 208.0827 509.6563 180.1812 530.49084 157.56788 527.0105 C 155.75813 532.8114 115.3323 534.8414 111.78405 527.0105 C 88.89285 535.3735 41.16105 522.5149 73.723725 511.10664 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(81.521 490)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31.243" y="15">Ash </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.795" y="33.448">Compositor</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(-10 307)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6394885e-19" y="15">Ash, sysui tiles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <path d="M 170.646 575.448 L 247.146 575.448 C 252.66885 575.448 257.146 579.92515 257.146 585.448 L 257.146 587.448 C 257.146 592.97085 252.66885 597.448 247.146 597.448 L 170.646 597.448 C 165.12315 597.448 160.646 592.97085 160.646 587.448 L 160.646 585.448 C 160.646 579.92515 165.12315 575.448 170.646 575.448 Z" fill="#ccc"/>
+        <path d="M 170.646 575.448 L 247.146 575.448 C 252.66885 575.448 257.146 579.92515 257.146 585.448 L 257.146 587.448 C 257.146 592.97085 252.66885 597.448 247.146 597.448 L 170.646 597.448 C 165.12315 597.448 160.646 592.97085 160.646 587.448 L 160.646 585.448 C 160.646 579.92515 165.12315 575.448 170.646 575.448 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(165.646 577.224)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="17.626" y="15">overlay</tspan>
+        </text>
+      </g>
+      <g id="Line_13">
+        <line x1="87.7124" y1="441.448" x2="107.8849" y2="476.3868" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_17">
+        <path d="M 56.5 575.448 L 133 575.448 C 138.52285 575.448 143 579.92515 143 585.448 L 143 587.448 C 143 592.97085 138.52285 597.448 133 597.448 L 56.5 597.448 C 50.97715 597.448 46.5 592.97085 46.5 587.448 L 46.5 585.448 C 46.5 579.92515 50.97715 575.448 56.5 575.448 Z" fill="#ccc"/>
+        <path d="M 56.5 575.448 L 133 575.448 C 138.52285 575.448 143 579.92515 143 585.448 L 143 587.448 C 143 592.97085 138.52285 597.448 133 597.448 L 56.5 597.448 C 50.97715 597.448 46.5 592.97085 46.5 587.448 L 46.5 585.448 C 46.5 579.92515 50.97715 575.448 56.5 575.448 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(51.5 577.224)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="16.282" y="15">primary</tspan>
+        </text>
+      </g>
+      <g id="Line_19">
+        <line x1="117.4507" y1="530.4961" x2="102.93484" y2="566.2743" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_20">
+        <rect x="209.022" y="129.92971" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_21">
+        <rect x="219.022" y="140.9297" width="82.5" height="82.5" fill="white"/>
+        <rect x="219.022" y="140.9297" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_22">
+        <rect x="230.022" y="153.9297" width="82.5" height="82.5" fill="white"/>
+        <rect x="230.022" y="153.9297" width="82.5" height="82.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_23">
+        <text transform="translate(176 102.98171)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8526513e-19" y="15">LaCrOS Chrome, web tiles</tspan>
+        </text>
+      </g>
+      <g id="Line_24">
+        <line x1="271.2137" y1="246.3297" x2="271.17276" y2="282.22448" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_27">
+        <path d="M 218.47373 308.35664 C 195.44288 305.698 204.627 283.31657 241.36635 287.1355 C 244.77495 279.6912 287.49788 280.8995 287.21858 287.1355 C 314.00715 279.15956 348.24135 295.06342 325.2789 303.03935 C 352.8327 306.9063 324.9312 327.74084 302.31788 324.2605 C 300.50813 330.0614 260.0823 332.0914 256.53405 324.2605 C 233.64285 332.62352 185.91105 319.7649 218.47373 308.35664 Z" fill="white"/>
+        <path d="M 218.47373 308.35664 C 195.44288 305.698 204.627 283.31657 241.36635 287.1355 C 244.77495 279.6912 287.49788 280.8995 287.21858 287.1355 C 314.00715 279.15956 348.24135 295.06342 325.2789 303.03935 C 352.8327 306.9063 324.9312 327.74084 302.31788 324.2605 C 300.50813 330.0614 260.0823 332.0914 256.53405 324.2605 C 233.64285 332.62352 185.91105 319.7649 218.47373 308.35664 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(226.271 287.25)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.651" y="15">Delegating </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.795" y="33.448">Compositor</tspan>
+        </text>
+      </g>
+      <g id="Line_33">
+        <line x1="257.20217" y1="325.229" x2="146.7743" y2="479.9043" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_35">
+        <path d="M 209.022 209.1782 C 188.70583 232.16766 165.07885 265.86196 148.5 311 C 125.82311 372.74073 123.22315 437.1321 124.22238 474.9702" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_37">
+        <path d="M 219.022 217.4537 C 201.35852 237.0035 181.03628 265.69954 164.5 306 C 139.49981 366.9278 130.90199 435.4943 127.94535 475.15725" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <path d="M 230.022 235.3049 C 212.88045 255.6857 192.95308 284.26085 175.5 322 C 149.23764 378.78762 136.47958 439.2383 130.69643 475.4146" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 175 350.09886 L 318 350.09886 C 320.20914 350.09886 322 351.8897 322 354.09886 L 322 427.77885 C 322 429.988 320.20914 431.77885 318 431.77885 L 175 431.77885 C 172.79086 431.77885 171 429.988 171 427.77885 L 171 354.09886 C 171 351.8897 172.79086 350.09886 175 350.09886 Z" fill="#fffdd7"/>
+        <path d="M 175 350.09886 L 318 350.09886 C 320.20914 350.09886 322 351.8897 322 354.09886 L 322 427.77885 C 322 429.988 320.20914 431.77885 318 431.77885 L 175 431.77885 C 172.79086 431.77885 171 429.988 171 427.77885 L 171 354.09886 C 171 351.8897 172.79086 350.09886 175 350.09886 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(176 355.09886)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="9.714" y="11">Delegating compositor </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="10.158" y="25.336">ships tile references to  </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="4.59" y="39.671997">Ash Compositor, sets up </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="16.722" y="54.007996">tile sharing between </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="15.396" y="68.343994">LaCrOS-Viz, Ash-Viz</tspan>
+        </text>
+      </g>
+      <g id="Line_40">
+        <path d="M 176.26796 525.1889 C 188.21824 530.46975 199.74862 536.8694 207.5 544.198 C 215.61217 551.8677 218.26138 559.303 218.26255 565.7427" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_41">
+        <path d="M 208 520 L 322.77523 520 C 324.98437 520 326.77523 521.79086 326.77523 524 L 326.77523 554.672 C 326.77523 556.88114 324.98437 558.672 322.77523 558.672 L 208 558.672 C 205.79086 558.672 204 556.88114 204 554.672 L 204 524 C 204 521.79086 205.79086 520 208 520 Z" fill="#fffdd7"/>
+        <path d="M 208 520 L 322.77523 520 C 324.98437 520 326.77523 521.79086 326.77523 524 L 326.77523 554.672 C 326.77523 556.88114 324.98437 558.672 322.77523 558.672 L 208 558.672 C 205.79086 558.672 204 556.88114 204 554.672 L 204 524 C 204 521.79086 205.79086 520 208 520 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(209 525)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="22.391615" y="11">Ash-viz uses </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".6116152" y="25.336">overlays as it sees fit</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
